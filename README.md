@@ -1,84 +1,119 @@
-# 🎮 HackStreetboys Game Simulator
+# 🎮 Clash Royale Strategy Competition - HackStreetBoys
 
-A **Python-based game simulator** for running automated matches between different team strategies. This project is built upon the game engine provided by **WnCC IIT Bombay**, which we've modified to run without graphics and added parallel match simulation capabilities for efficient strategy testing.
+A **Python-based game simulator** for strategic match analysis between competing team algorithms. This project extends the original game engine provided by **WnCC IIT Bombay** for CodeWars V5, implementing headless operation and parallel simulation architecture for computationally efficient strategy optimization.
 
 ## 📁 Project Structure
 
 ```
 .
-├── main.py              # Main entry point for running simulations
-├── game.py             # Core game logic implementation
-├── matrixCalculation.py # Matrix-based calculations for game mechanics
-├── config.py           # Configuration settings and team imports
-├── teams/              # Directory containing team strategy implementations
-├── scripts/            # Utility scripts and tools
-└── data/              # Data storage directory
+├── main.py              # Entry point with parallel match simulation implementation
+├── game.py              # Modified core game engine implementation
+├── matrixCalculation.py # Matrix-based troop counter metrics generation
+├── config.py            # Team configuration and simulation parameters
+├── teams/              # Strategy implementations for competing algorithms
+├── scripts/            # Utility and analysis scripts
+└── data/               # Simulation result storage and analytics
 ```
 
-## ✨ Features
+## ✨ Technical Features
 
-- **Parallel Match Simulation**: Run multiple matches simultaneously for efficient strategy testing
-- **Matrix-Based Parameter Generation**: Advanced matrix calculations for optimal troop deployment parameters
-- **Headless Operation**: Modified to run without graphics for faster execution
-- **Comprehensive Logging**: Detailed debugging logs for strategy analysis
-- **Configurable Strategies**: Easy integration of new team strategies
+- **Parallel Process Simulation**: Multiprocessing implementation for concurrent match evaluation
+- **Counter Matrix Generation**: Numerical analysis of troop effectiveness through time-to-kill metrics
+- **Headless Execution**: Optimized runtime through elimination of graphical rendering overhead
+- **Detailed Performance Logging**: Comprehensive match data collection for statistical analysis
+- **Modular Strategy Interface**: Standardized API for strategy implementation and evaluation
 
-## 🔧 Matrix Calculator
+## 🔧 Matrix-Based Counter System
 
-The `matrixCalculation.py` module is a critical component that generates customized parameters for optimal troop deployment in `hackstreetboys.py`. Here's how it works:
+The `matrixCalculation.py` module performs quantitative analysis of troop interaction dynamics:
 
-1. **Parameter Generation**: 
-   - The module calculates counter factors between different troop types using a 12x12 matrix. Each entry in the matrix represents the effectiveness of one troop type against another.
-   - Key parameters considered include troop number, health, damage, splash range, attack speed, and type.
+1. **Counter Factor Calculation**:
+   - Generates a 12×12 matrix representing relative effectiveness between all troop type pairs
+   - Calculates precise time-to-kill metrics considering:
+     - Raw damage per second (damage × attack_speed)
+     - Splash damage multipliers for multi-unit engagement
+     - Health-to-damage ratios
+     - Attack range differentials affecting engagement timing
+     - Target type compatibility constraints
 
-2. **Counter Factor Calculation**:
-   - For each pair of troops, the module calculates the time required for one troop to kill the other, considering splash damage and attack range.
-   - Adjustments are made based on which troop starts attacking first, depending on their attack ranges.
+2. **Mathematical Model**:
+   - For troops that can target each other, the counter factor is calculated as:
+     ```
+     counter_factor = -1/(time_B_kills_A) + 1/(time_A_kills_B)
+     ```
+   - For one-sided engagements (e.g., ground troops vs. air troops):
+     ```
+     counter_factor = -1/time_B_kills_A  # When only B can attack A
+     counter_factor = 1/time_A_kills_B   # When only A can attack B
+     ```
+   - Time-to-kill calculations incorporate range advantages:
+     ```
+     adjusted_time_to_kill = raw_time_to_kill + range_approach_time
+     ```
 
-3. **Strategic Analysis**:
-   - The module analyzes the counter matrix to determine the best and worst counters for each troop type.
-   - Detailed logs are generated in `counter_debug.log`, providing insights into the calculations and strategic recommendations.
+3. **Output Analysis**:
+   - Performs statistical analysis to identify optimal counter relationships
+   - Generates `counter_debug.log` with detailed metrics for strategy refinement
 
-## 🎯 Strategy Implementation in HackStreetBoys.py
+## 🎯 Advanced Strategy Implementation in HackStreetBoys.py
 
-The `HackStreetBoys.py` file implements the strategy logic for troop deployment. Here's a detailed overview of the `logic` function:
+The `HackStreetBoys.py` implements a multi-tier decision system for optimal troop deployment:
 
-1. **Signal Update**:
-   - Updates the `team_signal` to track the state of the game, including enemy troop deployments and elixir levels.
+1. **State Tracking and Analysis**:
+   - Maintains a persistent game state through `team_signal` for tracking:
+     - Enemy troop composition history
+     - Elixir economy estimation
+     - Recent deployment patterns
+   - Normalizes enemy troop counts based on troop-specific multiplicity factors
 
-2. **Troop Properties and Counters**:
-   - Utilizes a dictionary of troop properties and a counter matrix to evaluate the effectiveness of different troops against enemy troops.
+2. **Vector-Based Counter Calculation**:
+   - Implements matrix multiplication to calculate optimal counter choices:
+     ```python
+     # Generate normalized enemy composition vector
+     opp_troops = np.zeros(12)
+     for troop in enemy_troops:
+         opp_troops[all_troops.index(troop.name)] += 1 / troop_counts[all_troops.index(troop.name)]
+     
+     # Matrix multiplication for counter effectiveness scoring
+     troop_scores = counters @ opp_troops
+     ```
+   - This operation performs a weighted dot product between each row of the counter matrix and the current battlefield composition
+   - Positive scores indicate effective counters; negative scores indicate unfavorable matchups
 
-3. **Defense Strategy**:
-   - Prioritizes defending the tower by calculating the best counter troops to deploy when enemy troops are close.
+3. **Hierarchical Decision System**:
+   - Implements a priority-based decision tree:
+     - **Priority 1**: Tower defense when enemies are within critical proximity (15 units)
+     - **Priority 2**: Strategic push combinations when elixir reserves permit
+     - **Priority 3**: Tactical offensive pairs for lane pressure
+     - **Priority 4**: Individual counter deployments
+     - **Priority 5**: Preemptive deployment when enemy activity is low
 
-4. **Offensive Strategy**:
-   - Considers launching a powerful push using predefined troop combinations if conditions are favorable (e.g., sufficient elixir and deployable troops).
+4. **Positional Optimization**:
+   - Calculates optimal deployment coordinates using the `calculate_best_position` function:
+     - Evaluates attack and discovery ranges
+     - Considers troop mobility and engagement timing
+     - Optimizes for troop-specific advantages (e.g., splash damage positioning)
+     - Implements lane-based deployment strategies for coordinated attacks
 
-5. **Dynamic Deployment**:
-   - Adjusts troop deployment dynamically based on the current game state, including enemy troop positions and available elixir.
+5. **Elixir Management**:
+   - Dynamically adjusts deployment thresholds based on game state
+   - Maintains minimum elixir reserves for defensive responses
+   - Tracks estimated enemy elixir to identify opportunistic push windows
 
-6. **Fallback Strategies**:
-   - Deploys single counter troops or launches a preemptive attack if no specific strategy is applicable and there are no enemy troops.
+This multi-tiered approach allows for adaptable strategy execution that responds to battlefield conditions in real-time while maximizing the effectiveness of available troops based on mathematically derived counter relationships.
 
-This strategic approach allows for flexible and effective troop deployment, leveraging the detailed analysis provided by the matrix calculator to optimize performance in matches.
+## 💻 Execution
 
-## 💻 Usage
-
-
-**Run the simulator**:
 ```bash
 python main.py
 ```
 
-The simulator will run multiple batches of matches between the configured teams and provide results.
+The simulator executes multiple concurrent match instances, aggregating results to evaluate strategy performance across varied scenarios.
 
 ## 🙏 Acknowledgments
 
-- **WnCC IIT Bombay** for providing the original game engine
-- Thanks to all contributors who have helped shape this project
-- Special thanks to the teams who have implemented their strategies
-- This project was inspired by the [CodeWars V5: Code Royale](https://tulip-cone-606.notion.site/CodeWars-V5-Code-Royale-1ac881a58b9a807196a5e351b6ea8a79) competition.
+- **WnCC IIT Bombay** for the original game engine implementation
+- This project was developed for the [CodeWars V5: Code Royale](https://tulip-cone-606.notion.site/CodeWars-V5-Code-Royale-1ac881a58b9a807196a5e351b6ea8a79) competition.
 
 ---
-*Made with ❤️ by the HackStreetboys Team* 
+*Developed by the HackStreetBoys Team* 
