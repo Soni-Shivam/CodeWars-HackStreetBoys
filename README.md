@@ -11,8 +11,8 @@ A **Python-based game simulator** for strategic match analysis between competing
 ├── matrixCalculation.py # Matrix-based troop counter metrics generation
 ├── config.py            # Team configuration and simulation parameters
 ├── teams/              # Strategy implementations for competing algorithms
-├── scripts/            # Utility and analysis scripts
-└── data/               # Simulation result storage and analytics
+├── scripts/            # Utility and game engine scripts
+└── data/               # Game window essential Data
 ```
 
 ## ✨ Technical Features
