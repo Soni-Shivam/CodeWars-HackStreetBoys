@@ -1,0 +1,3688 @@
+Counter Matrix Debug Log
+==================================================
+
+
+Detailed calculation for Archer vs Archer:
+Troop A (Archer):
+  Number: 2
+  Health: 334
+  Damage: 118
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Archer):
+  Number: 2
+  Health: 334
+  Damage: 118
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 3
+  Total hits A needs to kill B: 3.0
+  Hits per unit A: 3
+  Total hits B needs to kill A: 3.0
+  Time A to kill B: 3.0
+  Time B to kill A: 3.0
+  Equal ranges, no time to reach
+  Both start attacking simultaneously
+  Final adjusted times:
+    A to kill B: 3.0
+    B to kill A: 3.0
+Both Archer and Archer can attack each other so counter is 0.0
+
+Detailed calculation for Archer vs Balloon:
+Troop A (Archer):
+  Number: 2
+  Health: 334
+  Damage: 118
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Balloon):
+  Number: 1
+  Health: 2226
+  Damage: 424
+  Has splash: False
+  Attack speed: 0.5
+  Hits per unit B: 19
+  Total hits A needs to kill B: 9.5
+  Hits per unit A: 1
+  Total hits B needs to kill A: 2.0
+  Time A to kill B: 9.5
+  Time B to kill A: 4.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 9.5
+    B to kill A: 4.0
+Our Archer can attack Balloon but enemy Balloon cannot attack Archer so counter is 0.10526315789473684
+
+Detailed calculation for Archer vs Barbarian:
+Troop A (Archer):
+  Number: 2
+  Health: 334
+  Damage: 118
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Barbarian):
+  Number: 3
+  Health: 736
+  Damage: 161
+  Has splash: False
+  Attack speed: 0.5
+  Hits per unit B: 7
+  Total hits A needs to kill B: 10.5
+  Hits per unit A: 3
+  Total hits B needs to kill A: 2.0
+  Time A to kill B: 10.5
+  Time B to kill A: 4.0
+  A has longer range, time to reach: 3.125
+  A starts attacking first
+  Final adjusted times:
+    A to kill B: 10.5
+    B to kill A: 7.125
+Both Archer and Barbarian can attack each other so counter is -0.045112781954887216
+
+Detailed calculation for Archer vs Dragon:
+Troop A (Archer):
+  Number: 2
+  Health: 334
+  Damage: 118
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Dragon):
+  Number: 1
+  Health: 1267
+  Damage: 176
+  Has splash: True
+  Attack speed: 1.0
+  Hits per unit B: 11
+  Total hits A needs to kill B: 5.5
+  Hits B needs to kill A (with splash): 2.0
+  Time A to kill B: 5.5
+  Time B to kill A: 2.0
+  A has longer range, time to reach: 0.5625
+  A starts attacking first
+  Final adjusted times:
+    A to kill B: 5.5
+    B to kill A: 2.5625
+Both Archer and Dragon can attack each other so counter is -0.20842572062084258
+
+Detailed calculation for Archer vs Giant:
+Troop A (Archer):
+  Number: 2
+  Health: 334
+  Damage: 118
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Giant):
+  Number: 1
+  Health: 5423
+  Damage: 337
+  Has splash: False
+  Attack speed: 0.3333333333333333
+  Hits per unit B: 46
+  Total hits A needs to kill B: 23.0
+  Hits per unit A: 1
+  Total hits B needs to kill A: 2.0
+  Time A to kill B: 23.0
+  Time B to kill A: 6.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 23.0
+    B to kill A: 6.0
+Our Archer can attack Giant but enemy Giant cannot attack Archer so counter is 0.043478260869565216
+
+Detailed calculation for Archer vs Knight:
+Troop A (Archer):
+  Number: 2
+  Health: 334
+  Damage: 118
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Knight):
+  Number: 1
+  Health: 1938
+  Damage: 221
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 17
+  Total hits A needs to kill B: 8.5
+  Hits per unit A: 2
+  Total hits B needs to kill A: 4.0
+  Time A to kill B: 8.5
+  Time B to kill A: 4.0
+  A has longer range, time to reach: 3.125
+  A starts attacking first
+  Final adjusted times:
+    A to kill B: 8.5
+    B to kill A: 7.125
+Both Archer and Knight can attack each other so counter is -0.022703818369453038
+
+Detailed calculation for Archer vs Minion:
+Troop A (Archer):
+  Number: 2
+  Health: 334
+  Damage: 118
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Minion):
+  Number: 3
+  Health: 252
+  Damage: 129
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 3
+  Total hits A needs to kill B: 4.5
+  Hits per unit A: 3
+  Total hits B needs to kill A: 2.0
+  Time A to kill B: 4.5
+  Time B to kill A: 2.0
+  A has longer range, time to reach: 1.125
+  A starts attacking first
+  Final adjusted times:
+    A to kill B: 4.5
+    B to kill A: 3.125
+Both Archer and Minion can attack each other so counter is -0.0977777777777778
+
+Detailed calculation for Archer vs Musketeer:
+Troop A (Archer):
+  Number: 2
+  Health: 334
+  Damage: 118
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Musketeer):
+  Number: 1
+  Health: 792
+  Damage: 239
+  Has splash: False
+  Attack speed: 0.5
+  Hits per unit B: 7
+  Total hits A needs to kill B: 3.5
+  Hits per unit A: 2
+  Total hits B needs to kill A: 4.0
+  Time A to kill B: 3.5
+  Time B to kill A: 8.0
+  B has longer range, time to reach: 0.625
+  B starts attacking first
+  Final adjusted times:
+    A to kill B: 4.125
+    B to kill A: 8.0
+Both Archer and Musketeer can attack each other so counter is 0.11742424242424243
+
+Detailed calculation for Archer vs Prince:
+Troop A (Archer):
+  Number: 2
+  Health: 334
+  Damage: 118
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Prince):
+  Number: 1
+  Health: 1920
+  Damage: 392
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 17
+  Total hits A needs to kill B: 8.5
+  Hits per unit A: 1
+  Total hits B needs to kill A: 2.0
+  Time A to kill B: 8.5
+  Time B to kill A: 2.0
+  A has longer range, time to reach: 1.875
+  A starts attacking first
+  Final adjusted times:
+    A to kill B: 8.5
+    B to kill A: 3.875
+Both Archer and Prince can attack each other so counter is -0.14041745730550284
+
+Detailed calculation for Archer vs Skeleton:
+Troop A (Archer):
+  Number: 2
+  Health: 334
+  Damage: 118
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Skeleton):
+  Number: 10
+  Health: 89
+  Damage: 89
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 1
+  Total hits A needs to kill B: 5.0
+  Hits per unit A: 4
+  Total hits B needs to kill A: 0.8
+  Time A to kill B: 5.0
+  Time B to kill A: 0.8
+  A has longer range, time to reach: 1.875
+  A starts attacking first
+  Final adjusted times:
+    A to kill B: 5.0
+    B to kill A: 2.675
+Both Archer and Skeleton can attack each other so counter is -0.1738317757009346
+
+Detailed calculation for Archer vs Valkyrie:
+Troop A (Archer):
+  Number: 2
+  Health: 334
+  Damage: 118
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Valkyrie):
+  Number: 1
+  Health: 2097
+  Damage: 195
+  Has splash: True
+  Attack speed: 1.0
+  Hits per unit B: 18
+  Total hits A needs to kill B: 9.0
+  Hits B needs to kill A (with splash): 2.0
+  Time A to kill B: 9.0
+  Time B to kill A: 2.0
+  A has longer range, time to reach: 3.125
+  A starts attacking first
+  Final adjusted times:
+    A to kill B: 9.0
+    B to kill A: 5.125
+Both Archer and Valkyrie can attack each other so counter is -0.0840108401084011
+
+Detailed calculation for Archer vs Wizard:
+Troop A (Archer):
+  Number: 2
+  Health: 334
+  Damage: 118
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Wizard):
+  Number: 1
+  Health: 1100
+  Damage: 410
+  Has splash: True
+  Attack speed: 1.0
+  Hits per unit B: 10
+  Total hits A needs to kill B: 5.0
+  Hits B needs to kill A (with splash): 1.0
+  Time A to kill B: 5.0
+  Time B to kill A: 1.0
+  B has longer range, time to reach: 0.3125
+  B starts attacking first
+  Final adjusted times:
+    A to kill B: 5.3125
+    B to kill A: 1.0
+Both Archer and Wizard can attack each other so counter is -0.8117647058823529
+
+Detailed calculation for Balloon vs Archer:
+Troop A (Balloon):
+  Number: 1
+  Health: 2226
+  Damage: 424
+  Has splash: False
+  Attack speed: 0.5
+Troop B (Archer):
+  Number: 2
+  Health: 334
+  Damage: 118
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 1
+  Total hits A needs to kill B: 2.0
+  Hits per unit A: 19
+  Total hits B needs to kill A: 9.5
+  Time A to kill B: 4.0
+  Time B to kill A: 9.5
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 4.0
+    B to kill A: 9.5
+Enemy Archer can attack Balloon but our Balloon cannot attack Archer so counter is -0.10526315789473684
+
+Detailed calculation for Balloon vs Balloon:
+Troop A (Balloon):
+  Number: 1
+  Health: 2226
+  Damage: 424
+  Has splash: False
+  Attack speed: 0.5
+Troop B (Balloon):
+  Number: 1
+  Health: 2226
+  Damage: 424
+  Has splash: False
+  Attack speed: 0.5
+  Hits per unit B: 6
+  Total hits A needs to kill B: 6.0
+  Hits per unit A: 6
+  Total hits B needs to kill A: 6.0
+  Time A to kill B: 12.0
+  Time B to kill A: 12.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 12.0
+    B to kill A: 12.0
+Neither Balloon nor Balloon can attack each other
+
+Detailed calculation for Balloon vs Barbarian:
+Troop A (Balloon):
+  Number: 1
+  Health: 2226
+  Damage: 424
+  Has splash: False
+  Attack speed: 0.5
+Troop B (Barbarian):
+  Number: 3
+  Health: 736
+  Damage: 161
+  Has splash: False
+  Attack speed: 0.5
+  Hits per unit B: 2
+  Total hits A needs to kill B: 6.0
+  Hits per unit A: 14
+  Total hits B needs to kill A: 4.666666666666667
+  Time A to kill B: 12.0
+  Time B to kill A: 9.333333333333334
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 12.0
+    B to kill A: 9.333333333333334
+Neither Balloon nor Barbarian can attack each other
+
+Detailed calculation for Balloon vs Dragon:
+Troop A (Balloon):
+  Number: 1
+  Health: 2226
+  Damage: 424
+  Has splash: False
+  Attack speed: 0.5
+Troop B (Dragon):
+  Number: 1
+  Health: 1267
+  Damage: 176
+  Has splash: True
+  Attack speed: 1.0
+  Hits per unit B: 3
+  Total hits A needs to kill B: 3.0
+  Hits B needs to kill A (with splash): 13.0
+  Time A to kill B: 6.0
+  Time B to kill A: 13.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 6.0
+    B to kill A: 13.0
+Enemy Dragon can attack Balloon but our Balloon cannot attack Dragon so counter is -0.07692307692307693
+
+Detailed calculation for Balloon vs Giant:
+Troop A (Balloon):
+  Number: 1
+  Health: 2226
+  Damage: 424
+  Has splash: False
+  Attack speed: 0.5
+Troop B (Giant):
+  Number: 1
+  Health: 5423
+  Damage: 337
+  Has splash: False
+  Attack speed: 0.3333333333333333
+  Hits per unit B: 13
+  Total hits A needs to kill B: 13.0
+  Hits per unit A: 7
+  Total hits B needs to kill A: 7.0
+  Time A to kill B: 26.0
+  Time B to kill A: 21.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 26.0
+    B to kill A: 21.0
+Neither Balloon nor Giant can attack each other
+
+Detailed calculation for Balloon vs Knight:
+Troop A (Balloon):
+  Number: 1
+  Health: 2226
+  Damage: 424
+  Has splash: False
+  Attack speed: 0.5
+Troop B (Knight):
+  Number: 1
+  Health: 1938
+  Damage: 221
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 5
+  Total hits A needs to kill B: 5.0
+  Hits per unit A: 11
+  Total hits B needs to kill A: 11.0
+  Time A to kill B: 10.0
+  Time B to kill A: 11.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 10.0
+    B to kill A: 11.0
+Neither Balloon nor Knight can attack each other
+
+Detailed calculation for Balloon vs Minion:
+Troop A (Balloon):
+  Number: 1
+  Health: 2226
+  Damage: 424
+  Has splash: False
+  Attack speed: 0.5
+Troop B (Minion):
+  Number: 3
+  Health: 252
+  Damage: 129
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 1
+  Total hits A needs to kill B: 3.0
+  Hits per unit A: 18
+  Total hits B needs to kill A: 6.0
+  Time A to kill B: 6.0
+  Time B to kill A: 6.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 6.0
+    B to kill A: 6.0
+Enemy Minion can attack Balloon but our Balloon cannot attack Minion so counter is -0.16666666666666666
+
+Detailed calculation for Balloon vs Musketeer:
+Troop A (Balloon):
+  Number: 1
+  Health: 2226
+  Damage: 424
+  Has splash: False
+  Attack speed: 0.5
+Troop B (Musketeer):
+  Number: 1
+  Health: 792
+  Damage: 239
+  Has splash: False
+  Attack speed: 0.5
+  Hits per unit B: 2
+  Total hits A needs to kill B: 2.0
+  Hits per unit A: 10
+  Total hits B needs to kill A: 10.0
+  Time A to kill B: 4.0
+  Time B to kill A: 20.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 4.0
+    B to kill A: 20.0
+Enemy Musketeer can attack Balloon but our Balloon cannot attack Musketeer so counter is -0.05
+
+Detailed calculation for Balloon vs Prince:
+Troop A (Balloon):
+  Number: 1
+  Health: 2226
+  Damage: 424
+  Has splash: False
+  Attack speed: 0.5
+Troop B (Prince):
+  Number: 1
+  Health: 1920
+  Damage: 392
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 5
+  Total hits A needs to kill B: 5.0
+  Hits per unit A: 6
+  Total hits B needs to kill A: 6.0
+  Time A to kill B: 10.0
+  Time B to kill A: 6.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 10.0
+    B to kill A: 6.0
+Neither Balloon nor Prince can attack each other
+
+Detailed calculation for Balloon vs Skeleton:
+Troop A (Balloon):
+  Number: 1
+  Health: 2226
+  Damage: 424
+  Has splash: False
+  Attack speed: 0.5
+Troop B (Skeleton):
+  Number: 10
+  Health: 89
+  Damage: 89
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 1
+  Total hits A needs to kill B: 10.0
+  Hits per unit A: 26
+  Total hits B needs to kill A: 2.6
+  Time A to kill B: 20.0
+  Time B to kill A: 2.6
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 20.0
+    B to kill A: 2.6
+Neither Balloon nor Skeleton can attack each other
+
+Detailed calculation for Balloon vs Valkyrie:
+Troop A (Balloon):
+  Number: 1
+  Health: 2226
+  Damage: 424
+  Has splash: False
+  Attack speed: 0.5
+Troop B (Valkyrie):
+  Number: 1
+  Health: 2097
+  Damage: 195
+  Has splash: True
+  Attack speed: 1.0
+  Hits per unit B: 5
+  Total hits A needs to kill B: 5.0
+  Hits B needs to kill A (with splash): 12.0
+  Time A to kill B: 10.0
+  Time B to kill A: 12.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 10.0
+    B to kill A: 12.0
+Neither Balloon nor Valkyrie can attack each other
+
+Detailed calculation for Balloon vs Wizard:
+Troop A (Balloon):
+  Number: 1
+  Health: 2226
+  Damage: 424
+  Has splash: False
+  Attack speed: 0.5
+Troop B (Wizard):
+  Number: 1
+  Health: 1100
+  Damage: 410
+  Has splash: True
+  Attack speed: 1.0
+  Hits per unit B: 3
+  Total hits A needs to kill B: 3.0
+  Hits B needs to kill A (with splash): 6.0
+  Time A to kill B: 6.0
+  Time B to kill A: 6.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 6.0
+    B to kill A: 6.0
+Enemy Wizard can attack Balloon but our Balloon cannot attack Wizard so counter is -0.16666666666666666
+
+Detailed calculation for Barbarian vs Archer:
+Troop A (Barbarian):
+  Number: 3
+  Health: 736
+  Damage: 161
+  Has splash: False
+  Attack speed: 0.5
+Troop B (Archer):
+  Number: 2
+  Health: 334
+  Damage: 118
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 3
+  Total hits A needs to kill B: 2.0
+  Hits per unit A: 7
+  Total hits B needs to kill A: 10.5
+  Time A to kill B: 4.0
+  Time B to kill A: 10.5
+  B has longer range, time to reach: 3.125
+  B starts attacking first
+  Final adjusted times:
+    A to kill B: 7.125
+    B to kill A: 10.5
+Both Barbarian and Archer can attack each other so counter is 0.045112781954887216
+
+Detailed calculation for Barbarian vs Balloon:
+Troop A (Barbarian):
+  Number: 3
+  Health: 736
+  Damage: 161
+  Has splash: False
+  Attack speed: 0.5
+Troop B (Balloon):
+  Number: 1
+  Health: 2226
+  Damage: 424
+  Has splash: False
+  Attack speed: 0.5
+  Hits per unit B: 14
+  Total hits A needs to kill B: 4.666666666666667
+  Hits per unit A: 2
+  Total hits B needs to kill A: 6.0
+  Time A to kill B: 9.333333333333334
+  Time B to kill A: 12.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 9.333333333333334
+    B to kill A: 12.0
+Neither Barbarian nor Balloon can attack each other
+
+Detailed calculation for Barbarian vs Barbarian:
+Troop A (Barbarian):
+  Number: 3
+  Health: 736
+  Damage: 161
+  Has splash: False
+  Attack speed: 0.5
+Troop B (Barbarian):
+  Number: 3
+  Health: 736
+  Damage: 161
+  Has splash: False
+  Attack speed: 0.5
+  Hits per unit B: 5
+  Total hits A needs to kill B: 5.0
+  Hits per unit A: 5
+  Total hits B needs to kill A: 5.0
+  Time A to kill B: 10.0
+  Time B to kill A: 10.0
+  Equal ranges, no time to reach
+  Both start attacking simultaneously
+  Final adjusted times:
+    A to kill B: 10.0
+    B to kill A: 10.0
+Both Barbarian and Barbarian can attack each other so counter is 0.0
+
+Detailed calculation for Barbarian vs Dragon:
+Troop A (Barbarian):
+  Number: 3
+  Health: 736
+  Damage: 161
+  Has splash: False
+  Attack speed: 0.5
+Troop B (Dragon):
+  Number: 1
+  Health: 1267
+  Damage: 176
+  Has splash: True
+  Attack speed: 1.0
+  Hits per unit B: 8
+  Total hits A needs to kill B: 2.6666666666666665
+  Hits B needs to kill A (with splash): 5.0
+  Time A to kill B: 5.333333333333333
+  Time B to kill A: 5.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 5.333333333333333
+    B to kill A: 5.0
+Enemy Dragon can attack Barbarian but our Barbarian cannot attack Dragon so counter is -0.2
+
+Detailed calculation for Barbarian vs Giant:
+Troop A (Barbarian):
+  Number: 3
+  Health: 736
+  Damage: 161
+  Has splash: False
+  Attack speed: 0.5
+Troop B (Giant):
+  Number: 1
+  Health: 5423
+  Damage: 337
+  Has splash: False
+  Attack speed: 0.3333333333333333
+  Hits per unit B: 34
+  Total hits A needs to kill B: 11.333333333333334
+  Hits per unit A: 3
+  Total hits B needs to kill A: 9.0
+  Time A to kill B: 22.666666666666668
+  Time B to kill A: 27.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 22.666666666666668
+    B to kill A: 27.0
+Our Barbarian can attack Giant but enemy Giant cannot attack Barbarian so counter is 0.044117647058823525
+
+Detailed calculation for Barbarian vs Knight:
+Troop A (Barbarian):
+  Number: 3
+  Health: 736
+  Damage: 161
+  Has splash: False
+  Attack speed: 0.5
+Troop B (Knight):
+  Number: 1
+  Health: 1938
+  Damage: 221
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 13
+  Total hits A needs to kill B: 4.333333333333333
+  Hits per unit A: 4
+  Total hits B needs to kill A: 12.0
+  Time A to kill B: 8.666666666666666
+  Time B to kill A: 12.0
+  Equal ranges, no time to reach
+  Both start attacking simultaneously
+  Final adjusted times:
+    A to kill B: 8.666666666666666
+    B to kill A: 12.0
+Both Barbarian and Knight can attack each other so counter is 0.03205128205128206
+
+Detailed calculation for Barbarian vs Minion:
+Troop A (Barbarian):
+  Number: 3
+  Health: 736
+  Damage: 161
+  Has splash: False
+  Attack speed: 0.5
+Troop B (Minion):
+  Number: 3
+  Health: 252
+  Damage: 129
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 2
+  Total hits A needs to kill B: 2.0
+  Hits per unit A: 6
+  Total hits B needs to kill A: 6.0
+  Time A to kill B: 4.0
+  Time B to kill A: 6.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 4.0
+    B to kill A: 6.0
+Enemy Minion can attack Barbarian but our Barbarian cannot attack Minion so counter is -0.16666666666666666
+
+Detailed calculation for Barbarian vs Musketeer:
+Troop A (Barbarian):
+  Number: 3
+  Health: 736
+  Damage: 161
+  Has splash: False
+  Attack speed: 0.5
+Troop B (Musketeer):
+  Number: 1
+  Health: 792
+  Damage: 239
+  Has splash: False
+  Attack speed: 0.5
+  Hits per unit B: 5
+  Total hits A needs to kill B: 1.6666666666666667
+  Hits per unit A: 4
+  Total hits B needs to kill A: 12.0
+  Time A to kill B: 3.3333333333333335
+  Time B to kill A: 24.0
+  B has longer range, time to reach: 3.75
+  B starts attacking first
+  Final adjusted times:
+    A to kill B: 7.083333333333334
+    B to kill A: 24.0
+Both Barbarian and Musketeer can attack each other so counter is 0.09950980392156863
+
+Detailed calculation for Barbarian vs Prince:
+Troop A (Barbarian):
+  Number: 3
+  Health: 736
+  Damage: 161
+  Has splash: False
+  Attack speed: 0.5
+Troop B (Prince):
+  Number: 1
+  Health: 1920
+  Damage: 392
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 12
+  Total hits A needs to kill B: 4.0
+  Hits per unit A: 2
+  Total hits B needs to kill A: 6.0
+  Time A to kill B: 8.0
+  Time B to kill A: 6.0
+  Equal ranges, no time to reach
+  Both start attacking simultaneously
+  Final adjusted times:
+    A to kill B: 8.0
+    B to kill A: 6.0
+Both Barbarian and Prince can attack each other so counter is -0.04166666666666666
+
+Detailed calculation for Barbarian vs Skeleton:
+Troop A (Barbarian):
+  Number: 3
+  Health: 736
+  Damage: 161
+  Has splash: False
+  Attack speed: 0.5
+Troop B (Skeleton):
+  Number: 10
+  Health: 89
+  Damage: 89
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 1
+  Total hits A needs to kill B: 3.3333333333333335
+  Hits per unit A: 9
+  Total hits B needs to kill A: 2.7
+  Time A to kill B: 6.666666666666667
+  Time B to kill A: 2.7
+  Equal ranges, no time to reach
+  Both start attacking simultaneously
+  Final adjusted times:
+    A to kill B: 6.666666666666667
+    B to kill A: 2.7
+Both Barbarian and Skeleton can attack each other so counter is -0.22037037037037036
+
+Detailed calculation for Barbarian vs Valkyrie:
+Troop A (Barbarian):
+  Number: 3
+  Health: 736
+  Damage: 161
+  Has splash: False
+  Attack speed: 0.5
+Troop B (Valkyrie):
+  Number: 1
+  Health: 2097
+  Damage: 195
+  Has splash: True
+  Attack speed: 1.0
+  Hits per unit B: 14
+  Total hits A needs to kill B: 4.666666666666667
+  Hits B needs to kill A (with splash): 4.0
+  Time A to kill B: 9.333333333333334
+  Time B to kill A: 4.0
+  Equal ranges, no time to reach
+  Both start attacking simultaneously
+  Final adjusted times:
+    A to kill B: 9.333333333333334
+    B to kill A: 4.0
+Both Barbarian and Valkyrie can attack each other so counter is -0.14285714285714285
+
+Detailed calculation for Barbarian vs Wizard:
+Troop A (Barbarian):
+  Number: 3
+  Health: 736
+  Damage: 161
+  Has splash: False
+  Attack speed: 0.5
+Troop B (Wizard):
+  Number: 1
+  Health: 1100
+  Damage: 410
+  Has splash: True
+  Attack speed: 1.0
+  Hits per unit B: 7
+  Total hits A needs to kill B: 2.3333333333333335
+  Hits B needs to kill A (with splash): 2.0
+  Time A to kill B: 4.666666666666667
+  Time B to kill A: 2.0
+  B has longer range, time to reach: 3.4375
+  B starts attacking first
+  Final adjusted times:
+    A to kill B: 8.104166666666668
+    B to kill A: 2.0
+Both Barbarian and Wizard can attack each other so counter is -0.37660668380462725
+
+Detailed calculation for Dragon vs Archer:
+Troop A (Dragon):
+  Number: 1
+  Health: 1267
+  Damage: 176
+  Has splash: True
+  Attack speed: 1.0
+Troop B (Archer):
+  Number: 2
+  Health: 334
+  Damage: 118
+  Has splash: False
+  Attack speed: 1.0
+  Hits A needs to kill B (with splash): 2.0
+  Hits per unit A: 11
+  Total hits B needs to kill A: 5.5
+  Time A to kill B: 2.0
+  Time B to kill A: 5.5
+  B has longer range, time to reach: 0.5625
+  B starts attacking first
+  Final adjusted times:
+    A to kill B: 2.5625
+    B to kill A: 5.5
+Both Dragon and Archer can attack each other so counter is 0.20842572062084258
+
+Detailed calculation for Dragon vs Balloon:
+Troop A (Dragon):
+  Number: 1
+  Health: 1267
+  Damage: 176
+  Has splash: True
+  Attack speed: 1.0
+Troop B (Balloon):
+  Number: 1
+  Health: 2226
+  Damage: 424
+  Has splash: False
+  Attack speed: 0.5
+  Hits A needs to kill B (with splash): 13.0
+  Hits per unit A: 3
+  Total hits B needs to kill A: 3.0
+  Time A to kill B: 13.0
+  Time B to kill A: 6.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 13.0
+    B to kill A: 6.0
+Our Dragon can attack Balloon but enemy Balloon cannot attack Dragon so counter is 0.07692307692307693
+
+Detailed calculation for Dragon vs Barbarian:
+Troop A (Dragon):
+  Number: 1
+  Health: 1267
+  Damage: 176
+  Has splash: True
+  Attack speed: 1.0
+Troop B (Barbarian):
+  Number: 3
+  Health: 736
+  Damage: 161
+  Has splash: False
+  Attack speed: 0.5
+  Hits A needs to kill B (with splash): 5.0
+  Hits per unit A: 8
+  Total hits B needs to kill A: 2.6666666666666665
+  Time A to kill B: 5.0
+  Time B to kill A: 5.333333333333333
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 5.0
+    B to kill A: 5.333333333333333
+Our Dragon can attack Barbarian but enemy Barbarian cannot attack Dragon so counter is 0.2
+
+Detailed calculation for Dragon vs Dragon:
+Troop A (Dragon):
+  Number: 1
+  Health: 1267
+  Damage: 176
+  Has splash: True
+  Attack speed: 1.0
+Troop B (Dragon):
+  Number: 1
+  Health: 1267
+  Damage: 176
+  Has splash: True
+  Attack speed: 1.0
+  Hits A needs to kill B (with splash): 8.0
+  Hits B needs to kill A (with splash): 8.0
+  Time A to kill B: 8.0
+  Time B to kill A: 8.0
+  Equal ranges, no time to reach
+  Both start attacking simultaneously
+  Final adjusted times:
+    A to kill B: 8.0
+    B to kill A: 8.0
+Both Dragon and Dragon can attack each other so counter is 0.0
+
+Detailed calculation for Dragon vs Giant:
+Troop A (Dragon):
+  Number: 1
+  Health: 1267
+  Damage: 176
+  Has splash: True
+  Attack speed: 1.0
+Troop B (Giant):
+  Number: 1
+  Health: 5423
+  Damage: 337
+  Has splash: False
+  Attack speed: 0.3333333333333333
+  Hits A needs to kill B (with splash): 31.0
+  Hits per unit A: 4
+  Total hits B needs to kill A: 4.0
+  Time A to kill B: 31.0
+  Time B to kill A: 12.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 31.0
+    B to kill A: 12.0
+Our Dragon can attack Giant but enemy Giant cannot attack Dragon so counter is 0.03225806451612903
+
+Detailed calculation for Dragon vs Knight:
+Troop A (Dragon):
+  Number: 1
+  Health: 1267
+  Damage: 176
+  Has splash: True
+  Attack speed: 1.0
+Troop B (Knight):
+  Number: 1
+  Health: 1938
+  Damage: 221
+  Has splash: False
+  Attack speed: 1.0
+  Hits A needs to kill B (with splash): 12.0
+  Hits per unit A: 6
+  Total hits B needs to kill A: 6.0
+  Time A to kill B: 12.0
+  Time B to kill A: 6.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 12.0
+    B to kill A: 6.0
+Our Dragon can attack Knight but enemy Knight cannot attack Dragon so counter is 0.08333333333333333
+
+Detailed calculation for Dragon vs Minion:
+Troop A (Dragon):
+  Number: 1
+  Health: 1267
+  Damage: 176
+  Has splash: True
+  Attack speed: 1.0
+Troop B (Minion):
+  Number: 3
+  Health: 252
+  Damage: 129
+  Has splash: False
+  Attack speed: 1.0
+  Hits A needs to kill B (with splash): 2.0
+  Hits per unit A: 10
+  Total hits B needs to kill A: 3.3333333333333335
+  Time A to kill B: 2.0
+  Time B to kill A: 3.3333333333333335
+  A has longer range, time to reach: 0.5625
+  A starts attacking first
+  Final adjusted times:
+    A to kill B: 2.0
+    B to kill A: 3.8958333333333335
+Both Dragon and Minion can attack each other so counter is 0.2433155080213904
+
+Detailed calculation for Dragon vs Musketeer:
+Troop A (Dragon):
+  Number: 1
+  Health: 1267
+  Damage: 176
+  Has splash: True
+  Attack speed: 1.0
+Troop B (Musketeer):
+  Number: 1
+  Health: 792
+  Damage: 239
+  Has splash: False
+  Attack speed: 0.5
+  Hits A needs to kill B (with splash): 5.0
+  Hits per unit A: 6
+  Total hits B needs to kill A: 6.0
+  Time A to kill B: 5.0
+  Time B to kill A: 12.0
+  B has longer range, time to reach: 0.9375
+  B starts attacking first
+  Final adjusted times:
+    A to kill B: 5.9375
+    B to kill A: 12.0
+Both Dragon and Musketeer can attack each other so counter is 0.08508771929824561
+
+Detailed calculation for Dragon vs Prince:
+Troop A (Dragon):
+  Number: 1
+  Health: 1267
+  Damage: 176
+  Has splash: True
+  Attack speed: 1.0
+Troop B (Prince):
+  Number: 1
+  Health: 1920
+  Damage: 392
+  Has splash: False
+  Attack speed: 1.0
+  Hits A needs to kill B (with splash): 11.0
+  Hits per unit A: 4
+  Total hits B needs to kill A: 4.0
+  Time A to kill B: 11.0
+  Time B to kill A: 4.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 11.0
+    B to kill A: 4.0
+Our Dragon can attack Prince but enemy Prince cannot attack Dragon so counter is 0.09090909090909091
+
+Detailed calculation for Dragon vs Skeleton:
+Troop A (Dragon):
+  Number: 1
+  Health: 1267
+  Damage: 176
+  Has splash: True
+  Attack speed: 1.0
+Troop B (Skeleton):
+  Number: 10
+  Health: 89
+  Damage: 89
+  Has splash: False
+  Attack speed: 1.0
+  Hits A needs to kill B (with splash): 1.0
+  Hits per unit A: 15
+  Total hits B needs to kill A: 1.5
+  Time A to kill B: 1.0
+  Time B to kill A: 1.5
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 1.0
+    B to kill A: 1.5
+Our Dragon can attack Skeleton but enemy Skeleton cannot attack Dragon so counter is 1.0
+
+Detailed calculation for Dragon vs Valkyrie:
+Troop A (Dragon):
+  Number: 1
+  Health: 1267
+  Damage: 176
+  Has splash: True
+  Attack speed: 1.0
+Troop B (Valkyrie):
+  Number: 1
+  Health: 2097
+  Damage: 195
+  Has splash: True
+  Attack speed: 1.0
+  Hits A needs to kill B (with splash): 12.0
+  Hits B needs to kill A (with splash): 7.0
+  Time A to kill B: 12.0
+  Time B to kill A: 7.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 12.0
+    B to kill A: 7.0
+Our Dragon can attack Valkyrie but enemy Valkyrie cannot attack Dragon so counter is 0.08333333333333333
+
+Detailed calculation for Dragon vs Wizard:
+Troop A (Dragon):
+  Number: 1
+  Health: 1267
+  Damage: 176
+  Has splash: True
+  Attack speed: 1.0
+Troop B (Wizard):
+  Number: 1
+  Health: 1100
+  Damage: 410
+  Has splash: True
+  Attack speed: 1.0
+  Hits A needs to kill B (with splash): 7.0
+  Hits B needs to kill A (with splash): 4.0
+  Time A to kill B: 7.0
+  Time B to kill A: 4.0
+  B has longer range, time to reach: 0.75
+  B starts attacking first
+  Final adjusted times:
+    A to kill B: 7.75
+    B to kill A: 4.0
+Both Dragon and Wizard can attack each other so counter is -0.12096774193548387
+
+Detailed calculation for Giant vs Archer:
+Troop A (Giant):
+  Number: 1
+  Health: 5423
+  Damage: 337
+  Has splash: False
+  Attack speed: 0.3333333333333333
+Troop B (Archer):
+  Number: 2
+  Health: 334
+  Damage: 118
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 1
+  Total hits A needs to kill B: 2.0
+  Hits per unit A: 46
+  Total hits B needs to kill A: 23.0
+  Time A to kill B: 6.0
+  Time B to kill A: 23.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 6.0
+    B to kill A: 23.0
+Enemy Archer can attack Giant but our Giant cannot attack Archer so counter is -0.043478260869565216
+
+Detailed calculation for Giant vs Balloon:
+Troop A (Giant):
+  Number: 1
+  Health: 5423
+  Damage: 337
+  Has splash: False
+  Attack speed: 0.3333333333333333
+Troop B (Balloon):
+  Number: 1
+  Health: 2226
+  Damage: 424
+  Has splash: False
+  Attack speed: 0.5
+  Hits per unit B: 7
+  Total hits A needs to kill B: 7.0
+  Hits per unit A: 13
+  Total hits B needs to kill A: 13.0
+  Time A to kill B: 21.0
+  Time B to kill A: 26.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 21.0
+    B to kill A: 26.0
+Neither Giant nor Balloon can attack each other
+
+Detailed calculation for Giant vs Barbarian:
+Troop A (Giant):
+  Number: 1
+  Health: 5423
+  Damage: 337
+  Has splash: False
+  Attack speed: 0.3333333333333333
+Troop B (Barbarian):
+  Number: 3
+  Health: 736
+  Damage: 161
+  Has splash: False
+  Attack speed: 0.5
+  Hits per unit B: 3
+  Total hits A needs to kill B: 9.0
+  Hits per unit A: 34
+  Total hits B needs to kill A: 11.333333333333334
+  Time A to kill B: 27.0
+  Time B to kill A: 22.666666666666668
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 27.0
+    B to kill A: 22.666666666666668
+Enemy Barbarian can attack Giant but our Giant cannot attack Barbarian so counter is -0.044117647058823525
+
+Detailed calculation for Giant vs Dragon:
+Troop A (Giant):
+  Number: 1
+  Health: 5423
+  Damage: 337
+  Has splash: False
+  Attack speed: 0.3333333333333333
+Troop B (Dragon):
+  Number: 1
+  Health: 1267
+  Damage: 176
+  Has splash: True
+  Attack speed: 1.0
+  Hits per unit B: 4
+  Total hits A needs to kill B: 4.0
+  Hits B needs to kill A (with splash): 31.0
+  Time A to kill B: 12.0
+  Time B to kill A: 31.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 12.0
+    B to kill A: 31.0
+Enemy Dragon can attack Giant but our Giant cannot attack Dragon so counter is -0.03225806451612903
+
+Detailed calculation for Giant vs Giant:
+Troop A (Giant):
+  Number: 1
+  Health: 5423
+  Damage: 337
+  Has splash: False
+  Attack speed: 0.3333333333333333
+Troop B (Giant):
+  Number: 1
+  Health: 5423
+  Damage: 337
+  Has splash: False
+  Attack speed: 0.3333333333333333
+  Hits per unit B: 17
+  Total hits A needs to kill B: 17.0
+  Hits per unit A: 17
+  Total hits B needs to kill A: 17.0
+  Time A to kill B: 51.0
+  Time B to kill A: 51.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 51.0
+    B to kill A: 51.0
+Neither Giant nor Giant can attack each other
+
+Detailed calculation for Giant vs Knight:
+Troop A (Giant):
+  Number: 1
+  Health: 5423
+  Damage: 337
+  Has splash: False
+  Attack speed: 0.3333333333333333
+Troop B (Knight):
+  Number: 1
+  Health: 1938
+  Damage: 221
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 6
+  Total hits A needs to kill B: 6.0
+  Hits per unit A: 25
+  Total hits B needs to kill A: 25.0
+  Time A to kill B: 18.0
+  Time B to kill A: 25.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 18.0
+    B to kill A: 25.0
+Enemy Knight can attack Giant but our Giant cannot attack Knight so counter is -0.04
+
+Detailed calculation for Giant vs Minion:
+Troop A (Giant):
+  Number: 1
+  Health: 5423
+  Damage: 337
+  Has splash: False
+  Attack speed: 0.3333333333333333
+Troop B (Minion):
+  Number: 3
+  Health: 252
+  Damage: 129
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 1
+  Total hits A needs to kill B: 3.0
+  Hits per unit A: 43
+  Total hits B needs to kill A: 14.333333333333334
+  Time A to kill B: 9.0
+  Time B to kill A: 14.333333333333334
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 9.0
+    B to kill A: 14.333333333333334
+Enemy Minion can attack Giant but our Giant cannot attack Minion so counter is -0.06976744186046512
+
+Detailed calculation for Giant vs Musketeer:
+Troop A (Giant):
+  Number: 1
+  Health: 5423
+  Damage: 337
+  Has splash: False
+  Attack speed: 0.3333333333333333
+Troop B (Musketeer):
+  Number: 1
+  Health: 792
+  Damage: 239
+  Has splash: False
+  Attack speed: 0.5
+  Hits per unit B: 3
+  Total hits A needs to kill B: 3.0
+  Hits per unit A: 23
+  Total hits B needs to kill A: 23.0
+  Time A to kill B: 9.0
+  Time B to kill A: 46.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 9.0
+    B to kill A: 46.0
+Enemy Musketeer can attack Giant but our Giant cannot attack Musketeer so counter is -0.021739130434782608
+
+Detailed calculation for Giant vs Prince:
+Troop A (Giant):
+  Number: 1
+  Health: 5423
+  Damage: 337
+  Has splash: False
+  Attack speed: 0.3333333333333333
+Troop B (Prince):
+  Number: 1
+  Health: 1920
+  Damage: 392
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 6
+  Total hits A needs to kill B: 6.0
+  Hits per unit A: 14
+  Total hits B needs to kill A: 14.0
+  Time A to kill B: 18.0
+  Time B to kill A: 14.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 18.0
+    B to kill A: 14.0
+Enemy Prince can attack Giant but our Giant cannot attack Prince so counter is -0.07142857142857142
+
+Detailed calculation for Giant vs Skeleton:
+Troop A (Giant):
+  Number: 1
+  Health: 5423
+  Damage: 337
+  Has splash: False
+  Attack speed: 0.3333333333333333
+Troop B (Skeleton):
+  Number: 10
+  Health: 89
+  Damage: 89
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 1
+  Total hits A needs to kill B: 10.0
+  Hits per unit A: 61
+  Total hits B needs to kill A: 6.1
+  Time A to kill B: 30.0
+  Time B to kill A: 6.1
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 30.0
+    B to kill A: 6.1
+Enemy Skeleton can attack Giant but our Giant cannot attack Skeleton so counter is -0.1639344262295082
+
+Detailed calculation for Giant vs Valkyrie:
+Troop A (Giant):
+  Number: 1
+  Health: 5423
+  Damage: 337
+  Has splash: False
+  Attack speed: 0.3333333333333333
+Troop B (Valkyrie):
+  Number: 1
+  Health: 2097
+  Damage: 195
+  Has splash: True
+  Attack speed: 1.0
+  Hits per unit B: 7
+  Total hits A needs to kill B: 7.0
+  Hits B needs to kill A (with splash): 28.0
+  Time A to kill B: 21.0
+  Time B to kill A: 28.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 21.0
+    B to kill A: 28.0
+Enemy Valkyrie can attack Giant but our Giant cannot attack Valkyrie so counter is -0.03571428571428571
+
+Detailed calculation for Giant vs Wizard:
+Troop A (Giant):
+  Number: 1
+  Health: 5423
+  Damage: 337
+  Has splash: False
+  Attack speed: 0.3333333333333333
+Troop B (Wizard):
+  Number: 1
+  Health: 1100
+  Damage: 410
+  Has splash: True
+  Attack speed: 1.0
+  Hits per unit B: 4
+  Total hits A needs to kill B: 4.0
+  Hits B needs to kill A (with splash): 14.0
+  Time A to kill B: 12.0
+  Time B to kill A: 14.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 12.0
+    B to kill A: 14.0
+Enemy Wizard can attack Giant but our Giant cannot attack Wizard so counter is -0.07142857142857142
+
+Detailed calculation for Knight vs Archer:
+Troop A (Knight):
+  Number: 1
+  Health: 1938
+  Damage: 221
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Archer):
+  Number: 2
+  Health: 334
+  Damage: 118
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 2
+  Total hits A needs to kill B: 4.0
+  Hits per unit A: 17
+  Total hits B needs to kill A: 8.5
+  Time A to kill B: 4.0
+  Time B to kill A: 8.5
+  B has longer range, time to reach: 3.125
+  B starts attacking first
+  Final adjusted times:
+    A to kill B: 7.125
+    B to kill A: 8.5
+Both Knight and Archer can attack each other so counter is 0.022703818369453038
+
+Detailed calculation for Knight vs Balloon:
+Troop A (Knight):
+  Number: 1
+  Health: 1938
+  Damage: 221
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Balloon):
+  Number: 1
+  Health: 2226
+  Damage: 424
+  Has splash: False
+  Attack speed: 0.5
+  Hits per unit B: 11
+  Total hits A needs to kill B: 11.0
+  Hits per unit A: 5
+  Total hits B needs to kill A: 5.0
+  Time A to kill B: 11.0
+  Time B to kill A: 10.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 11.0
+    B to kill A: 10.0
+Neither Knight nor Balloon can attack each other
+
+Detailed calculation for Knight vs Barbarian:
+Troop A (Knight):
+  Number: 1
+  Health: 1938
+  Damage: 221
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Barbarian):
+  Number: 3
+  Health: 736
+  Damage: 161
+  Has splash: False
+  Attack speed: 0.5
+  Hits per unit B: 4
+  Total hits A needs to kill B: 12.0
+  Hits per unit A: 13
+  Total hits B needs to kill A: 4.333333333333333
+  Time A to kill B: 12.0
+  Time B to kill A: 8.666666666666666
+  Equal ranges, no time to reach
+  Both start attacking simultaneously
+  Final adjusted times:
+    A to kill B: 12.0
+    B to kill A: 8.666666666666666
+Both Knight and Barbarian can attack each other so counter is -0.03205128205128206
+
+Detailed calculation for Knight vs Dragon:
+Troop A (Knight):
+  Number: 1
+  Health: 1938
+  Damage: 221
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Dragon):
+  Number: 1
+  Health: 1267
+  Damage: 176
+  Has splash: True
+  Attack speed: 1.0
+  Hits per unit B: 6
+  Total hits A needs to kill B: 6.0
+  Hits B needs to kill A (with splash): 12.0
+  Time A to kill B: 6.0
+  Time B to kill A: 12.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 6.0
+    B to kill A: 12.0
+Enemy Dragon can attack Knight but our Knight cannot attack Dragon so counter is -0.08333333333333333
+
+Detailed calculation for Knight vs Giant:
+Troop A (Knight):
+  Number: 1
+  Health: 1938
+  Damage: 221
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Giant):
+  Number: 1
+  Health: 5423
+  Damage: 337
+  Has splash: False
+  Attack speed: 0.3333333333333333
+  Hits per unit B: 25
+  Total hits A needs to kill B: 25.0
+  Hits per unit A: 6
+  Total hits B needs to kill A: 6.0
+  Time A to kill B: 25.0
+  Time B to kill A: 18.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 25.0
+    B to kill A: 18.0
+Our Knight can attack Giant but enemy Giant cannot attack Knight so counter is 0.04
+
+Detailed calculation for Knight vs Knight:
+Troop A (Knight):
+  Number: 1
+  Health: 1938
+  Damage: 221
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Knight):
+  Number: 1
+  Health: 1938
+  Damage: 221
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 9
+  Total hits A needs to kill B: 9.0
+  Hits per unit A: 9
+  Total hits B needs to kill A: 9.0
+  Time A to kill B: 9.0
+  Time B to kill A: 9.0
+  Equal ranges, no time to reach
+  Both start attacking simultaneously
+  Final adjusted times:
+    A to kill B: 9.0
+    B to kill A: 9.0
+Both Knight and Knight can attack each other so counter is 0.0
+
+Detailed calculation for Knight vs Minion:
+Troop A (Knight):
+  Number: 1
+  Health: 1938
+  Damage: 221
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Minion):
+  Number: 3
+  Health: 252
+  Damage: 129
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 2
+  Total hits A needs to kill B: 6.0
+  Hits per unit A: 16
+  Total hits B needs to kill A: 5.333333333333333
+  Time A to kill B: 6.0
+  Time B to kill A: 5.333333333333333
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 6.0
+    B to kill A: 5.333333333333333
+Enemy Minion can attack Knight but our Knight cannot attack Minion so counter is -0.1875
+
+Detailed calculation for Knight vs Musketeer:
+Troop A (Knight):
+  Number: 1
+  Health: 1938
+  Damage: 221
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Musketeer):
+  Number: 1
+  Health: 792
+  Damage: 239
+  Has splash: False
+  Attack speed: 0.5
+  Hits per unit B: 4
+  Total hits A needs to kill B: 4.0
+  Hits per unit A: 9
+  Total hits B needs to kill A: 9.0
+  Time A to kill B: 4.0
+  Time B to kill A: 18.0
+  B has longer range, time to reach: 3.75
+  B starts attacking first
+  Final adjusted times:
+    A to kill B: 7.75
+    B to kill A: 18.0
+Both Knight and Musketeer can attack each other so counter is 0.07347670250896057
+
+Detailed calculation for Knight vs Prince:
+Troop A (Knight):
+  Number: 1
+  Health: 1938
+  Damage: 221
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Prince):
+  Number: 1
+  Health: 1920
+  Damage: 392
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 9
+  Total hits A needs to kill B: 9.0
+  Hits per unit A: 5
+  Total hits B needs to kill A: 5.0
+  Time A to kill B: 9.0
+  Time B to kill A: 5.0
+  Equal ranges, no time to reach
+  Both start attacking simultaneously
+  Final adjusted times:
+    A to kill B: 9.0
+    B to kill A: 5.0
+Both Knight and Prince can attack each other so counter is -0.0888888888888889
+
+Detailed calculation for Knight vs Skeleton:
+Troop A (Knight):
+  Number: 1
+  Health: 1938
+  Damage: 221
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Skeleton):
+  Number: 10
+  Health: 89
+  Damage: 89
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 1
+  Total hits A needs to kill B: 10.0
+  Hits per unit A: 22
+  Total hits B needs to kill A: 2.2
+  Time A to kill B: 10.0
+  Time B to kill A: 2.2
+  Equal ranges, no time to reach
+  Both start attacking simultaneously
+  Final adjusted times:
+    A to kill B: 10.0
+    B to kill A: 2.2
+Both Knight and Skeleton can attack each other so counter is -0.3545454545454545
+
+Detailed calculation for Knight vs Valkyrie:
+Troop A (Knight):
+  Number: 1
+  Health: 1938
+  Damage: 221
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Valkyrie):
+  Number: 1
+  Health: 2097
+  Damage: 195
+  Has splash: True
+  Attack speed: 1.0
+  Hits per unit B: 10
+  Total hits A needs to kill B: 10.0
+  Hits B needs to kill A (with splash): 10.0
+  Time A to kill B: 10.0
+  Time B to kill A: 10.0
+  Equal ranges, no time to reach
+  Both start attacking simultaneously
+  Final adjusted times:
+    A to kill B: 10.0
+    B to kill A: 10.0
+Both Knight and Valkyrie can attack each other so counter is 0.0
+
+Detailed calculation for Knight vs Wizard:
+Troop A (Knight):
+  Number: 1
+  Health: 1938
+  Damage: 221
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Wizard):
+  Number: 1
+  Health: 1100
+  Damage: 410
+  Has splash: True
+  Attack speed: 1.0
+  Hits per unit B: 5
+  Total hits A needs to kill B: 5.0
+  Hits B needs to kill A (with splash): 5.0
+  Time A to kill B: 5.0
+  Time B to kill A: 5.0
+  B has longer range, time to reach: 3.4375
+  B starts attacking first
+  Final adjusted times:
+    A to kill B: 8.4375
+    B to kill A: 5.0
+Both Knight and Wizard can attack each other so counter is -0.08148148148148149
+
+Detailed calculation for Minion vs Archer:
+Troop A (Minion):
+  Number: 3
+  Health: 252
+  Damage: 129
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Archer):
+  Number: 2
+  Health: 334
+  Damage: 118
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 3
+  Total hits A needs to kill B: 2.0
+  Hits per unit A: 3
+  Total hits B needs to kill A: 4.5
+  Time A to kill B: 2.0
+  Time B to kill A: 4.5
+  B has longer range, time to reach: 1.125
+  B starts attacking first
+  Final adjusted times:
+    A to kill B: 3.125
+    B to kill A: 4.5
+Both Minion and Archer can attack each other so counter is 0.0977777777777778
+
+Detailed calculation for Minion vs Balloon:
+Troop A (Minion):
+  Number: 3
+  Health: 252
+  Damage: 129
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Balloon):
+  Number: 1
+  Health: 2226
+  Damage: 424
+  Has splash: False
+  Attack speed: 0.5
+  Hits per unit B: 18
+  Total hits A needs to kill B: 6.0
+  Hits per unit A: 1
+  Total hits B needs to kill A: 3.0
+  Time A to kill B: 6.0
+  Time B to kill A: 6.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 6.0
+    B to kill A: 6.0
+Our Minion can attack Balloon but enemy Balloon cannot attack Minion so counter is 0.16666666666666666
+
+Detailed calculation for Minion vs Barbarian:
+Troop A (Minion):
+  Number: 3
+  Health: 252
+  Damage: 129
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Barbarian):
+  Number: 3
+  Health: 736
+  Damage: 161
+  Has splash: False
+  Attack speed: 0.5
+  Hits per unit B: 6
+  Total hits A needs to kill B: 6.0
+  Hits per unit A: 2
+  Total hits B needs to kill A: 2.0
+  Time A to kill B: 6.0
+  Time B to kill A: 4.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 6.0
+    B to kill A: 4.0
+Our Minion can attack Barbarian but enemy Barbarian cannot attack Minion so counter is 0.16666666666666666
+
+Detailed calculation for Minion vs Dragon:
+Troop A (Minion):
+  Number: 3
+  Health: 252
+  Damage: 129
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Dragon):
+  Number: 1
+  Health: 1267
+  Damage: 176
+  Has splash: True
+  Attack speed: 1.0
+  Hits per unit B: 10
+  Total hits A needs to kill B: 3.3333333333333335
+  Hits B needs to kill A (with splash): 2.0
+  Time A to kill B: 3.3333333333333335
+  Time B to kill A: 2.0
+  B has longer range, time to reach: 0.5625
+  B starts attacking first
+  Final adjusted times:
+    A to kill B: 3.8958333333333335
+    B to kill A: 2.0
+Both Minion and Dragon can attack each other so counter is -0.2433155080213904
+
+Detailed calculation for Minion vs Giant:
+Troop A (Minion):
+  Number: 3
+  Health: 252
+  Damage: 129
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Giant):
+  Number: 1
+  Health: 5423
+  Damage: 337
+  Has splash: False
+  Attack speed: 0.3333333333333333
+  Hits per unit B: 43
+  Total hits A needs to kill B: 14.333333333333334
+  Hits per unit A: 1
+  Total hits B needs to kill A: 3.0
+  Time A to kill B: 14.333333333333334
+  Time B to kill A: 9.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 14.333333333333334
+    B to kill A: 9.0
+Our Minion can attack Giant but enemy Giant cannot attack Minion so counter is 0.06976744186046512
+
+Detailed calculation for Minion vs Knight:
+Troop A (Minion):
+  Number: 3
+  Health: 252
+  Damage: 129
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Knight):
+  Number: 1
+  Health: 1938
+  Damage: 221
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 16
+  Total hits A needs to kill B: 5.333333333333333
+  Hits per unit A: 2
+  Total hits B needs to kill A: 6.0
+  Time A to kill B: 5.333333333333333
+  Time B to kill A: 6.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 5.333333333333333
+    B to kill A: 6.0
+Our Minion can attack Knight but enemy Knight cannot attack Minion so counter is 0.1875
+
+Detailed calculation for Minion vs Minion:
+Troop A (Minion):
+  Number: 3
+  Health: 252
+  Damage: 129
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Minion):
+  Number: 3
+  Health: 252
+  Damage: 129
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 2
+  Total hits A needs to kill B: 2.0
+  Hits per unit A: 2
+  Total hits B needs to kill A: 2.0
+  Time A to kill B: 2.0
+  Time B to kill A: 2.0
+  Equal ranges, no time to reach
+  Both start attacking simultaneously
+  Final adjusted times:
+    A to kill B: 2.0
+    B to kill A: 2.0
+Both Minion and Minion can attack each other so counter is 0.0
+
+Detailed calculation for Minion vs Musketeer:
+Troop A (Minion):
+  Number: 3
+  Health: 252
+  Damage: 129
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Musketeer):
+  Number: 1
+  Health: 792
+  Damage: 239
+  Has splash: False
+  Attack speed: 0.5
+  Hits per unit B: 7
+  Total hits A needs to kill B: 2.3333333333333335
+  Hits per unit A: 2
+  Total hits B needs to kill A: 6.0
+  Time A to kill B: 2.3333333333333335
+  Time B to kill A: 12.0
+  B has longer range, time to reach: 1.5
+  B starts attacking first
+  Final adjusted times:
+    A to kill B: 3.8333333333333335
+    B to kill A: 12.0
+Both Minion and Musketeer can attack each other so counter is 0.17753623188405798
+
+Detailed calculation for Minion vs Prince:
+Troop A (Minion):
+  Number: 3
+  Health: 252
+  Damage: 129
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Prince):
+  Number: 1
+  Health: 1920
+  Damage: 392
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 15
+  Total hits A needs to kill B: 5.0
+  Hits per unit A: 1
+  Total hits B needs to kill A: 3.0
+  Time A to kill B: 5.0
+  Time B to kill A: 3.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 5.0
+    B to kill A: 3.0
+Our Minion can attack Prince but enemy Prince cannot attack Minion so counter is 0.2
+
+Detailed calculation for Minion vs Skeleton:
+Troop A (Minion):
+  Number: 3
+  Health: 252
+  Damage: 129
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Skeleton):
+  Number: 10
+  Health: 89
+  Damage: 89
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 1
+  Total hits A needs to kill B: 3.3333333333333335
+  Hits per unit A: 3
+  Total hits B needs to kill A: 0.9
+  Time A to kill B: 3.3333333333333335
+  Time B to kill A: 0.9
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 3.3333333333333335
+    B to kill A: 0.9
+Our Minion can attack Skeleton but enemy Skeleton cannot attack Minion so counter is 0.3
+
+Detailed calculation for Minion vs Valkyrie:
+Troop A (Minion):
+  Number: 3
+  Health: 252
+  Damage: 129
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Valkyrie):
+  Number: 1
+  Health: 2097
+  Damage: 195
+  Has splash: True
+  Attack speed: 1.0
+  Hits per unit B: 17
+  Total hits A needs to kill B: 5.666666666666667
+  Hits B needs to kill A (with splash): 2.0
+  Time A to kill B: 5.666666666666667
+  Time B to kill A: 2.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 5.666666666666667
+    B to kill A: 2.0
+Our Minion can attack Valkyrie but enemy Valkyrie cannot attack Minion so counter is 0.1764705882352941
+
+Detailed calculation for Minion vs Wizard:
+Troop A (Minion):
+  Number: 3
+  Health: 252
+  Damage: 129
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Wizard):
+  Number: 1
+  Health: 1100
+  Damage: 410
+  Has splash: True
+  Attack speed: 1.0
+  Hits per unit B: 9
+  Total hits A needs to kill B: 3.0
+  Hits B needs to kill A (with splash): 1.0
+  Time A to kill B: 3.0
+  Time B to kill A: 1.0
+  B has longer range, time to reach: 1.3125
+  B starts attacking first
+  Final adjusted times:
+    A to kill B: 4.3125
+    B to kill A: 1.0
+Both Minion and Wizard can attack each other so counter is -0.7681159420289855
+
+Detailed calculation for Musketeer vs Archer:
+Troop A (Musketeer):
+  Number: 1
+  Health: 792
+  Damage: 239
+  Has splash: False
+  Attack speed: 0.5
+Troop B (Archer):
+  Number: 2
+  Health: 334
+  Damage: 118
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 2
+  Total hits A needs to kill B: 4.0
+  Hits per unit A: 7
+  Total hits B needs to kill A: 3.5
+  Time A to kill B: 8.0
+  Time B to kill A: 3.5
+  A has longer range, time to reach: 0.625
+  A starts attacking first
+  Final adjusted times:
+    A to kill B: 8.0
+    B to kill A: 4.125
+Both Musketeer and Archer can attack each other so counter is -0.11742424242424243
+
+Detailed calculation for Musketeer vs Balloon:
+Troop A (Musketeer):
+  Number: 1
+  Health: 792
+  Damage: 239
+  Has splash: False
+  Attack speed: 0.5
+Troop B (Balloon):
+  Number: 1
+  Health: 2226
+  Damage: 424
+  Has splash: False
+  Attack speed: 0.5
+  Hits per unit B: 10
+  Total hits A needs to kill B: 10.0
+  Hits per unit A: 2
+  Total hits B needs to kill A: 2.0
+  Time A to kill B: 20.0
+  Time B to kill A: 4.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 20.0
+    B to kill A: 4.0
+Our Musketeer can attack Balloon but enemy Balloon cannot attack Musketeer so counter is 0.05
+
+Detailed calculation for Musketeer vs Barbarian:
+Troop A (Musketeer):
+  Number: 1
+  Health: 792
+  Damage: 239
+  Has splash: False
+  Attack speed: 0.5
+Troop B (Barbarian):
+  Number: 3
+  Health: 736
+  Damage: 161
+  Has splash: False
+  Attack speed: 0.5
+  Hits per unit B: 4
+  Total hits A needs to kill B: 12.0
+  Hits per unit A: 5
+  Total hits B needs to kill A: 1.6666666666666667
+  Time A to kill B: 24.0
+  Time B to kill A: 3.3333333333333335
+  A has longer range, time to reach: 3.75
+  A starts attacking first
+  Final adjusted times:
+    A to kill B: 24.0
+    B to kill A: 7.083333333333334
+Both Musketeer and Barbarian can attack each other so counter is -0.09950980392156863
+
+Detailed calculation for Musketeer vs Dragon:
+Troop A (Musketeer):
+  Number: 1
+  Health: 792
+  Damage: 239
+  Has splash: False
+  Attack speed: 0.5
+Troop B (Dragon):
+  Number: 1
+  Health: 1267
+  Damage: 176
+  Has splash: True
+  Attack speed: 1.0
+  Hits per unit B: 6
+  Total hits A needs to kill B: 6.0
+  Hits B needs to kill A (with splash): 5.0
+  Time A to kill B: 12.0
+  Time B to kill A: 5.0
+  A has longer range, time to reach: 0.9375
+  A starts attacking first
+  Final adjusted times:
+    A to kill B: 12.0
+    B to kill A: 5.9375
+Both Musketeer and Dragon can attack each other so counter is -0.08508771929824561
+
+Detailed calculation for Musketeer vs Giant:
+Troop A (Musketeer):
+  Number: 1
+  Health: 792
+  Damage: 239
+  Has splash: False
+  Attack speed: 0.5
+Troop B (Giant):
+  Number: 1
+  Health: 5423
+  Damage: 337
+  Has splash: False
+  Attack speed: 0.3333333333333333
+  Hits per unit B: 23
+  Total hits A needs to kill B: 23.0
+  Hits per unit A: 3
+  Total hits B needs to kill A: 3.0
+  Time A to kill B: 46.0
+  Time B to kill A: 9.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 46.0
+    B to kill A: 9.0
+Our Musketeer can attack Giant but enemy Giant cannot attack Musketeer so counter is 0.021739130434782608
+
+Detailed calculation for Musketeer vs Knight:
+Troop A (Musketeer):
+  Number: 1
+  Health: 792
+  Damage: 239
+  Has splash: False
+  Attack speed: 0.5
+Troop B (Knight):
+  Number: 1
+  Health: 1938
+  Damage: 221
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 9
+  Total hits A needs to kill B: 9.0
+  Hits per unit A: 4
+  Total hits B needs to kill A: 4.0
+  Time A to kill B: 18.0
+  Time B to kill A: 4.0
+  A has longer range, time to reach: 3.75
+  A starts attacking first
+  Final adjusted times:
+    A to kill B: 18.0
+    B to kill A: 7.75
+Both Musketeer and Knight can attack each other so counter is -0.07347670250896057
+
+Detailed calculation for Musketeer vs Minion:
+Troop A (Musketeer):
+  Number: 1
+  Health: 792
+  Damage: 239
+  Has splash: False
+  Attack speed: 0.5
+Troop B (Minion):
+  Number: 3
+  Health: 252
+  Damage: 129
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 2
+  Total hits A needs to kill B: 6.0
+  Hits per unit A: 7
+  Total hits B needs to kill A: 2.3333333333333335
+  Time A to kill B: 12.0
+  Time B to kill A: 2.3333333333333335
+  A has longer range, time to reach: 1.5
+  A starts attacking first
+  Final adjusted times:
+    A to kill B: 12.0
+    B to kill A: 3.8333333333333335
+Both Musketeer and Minion can attack each other so counter is -0.17753623188405798
+
+Detailed calculation for Musketeer vs Musketeer:
+Troop A (Musketeer):
+  Number: 1
+  Health: 792
+  Damage: 239
+  Has splash: False
+  Attack speed: 0.5
+Troop B (Musketeer):
+  Number: 1
+  Health: 792
+  Damage: 239
+  Has splash: False
+  Attack speed: 0.5
+  Hits per unit B: 4
+  Total hits A needs to kill B: 4.0
+  Hits per unit A: 4
+  Total hits B needs to kill A: 4.0
+  Time A to kill B: 8.0
+  Time B to kill A: 8.0
+  Equal ranges, no time to reach
+  Both start attacking simultaneously
+  Final adjusted times:
+    A to kill B: 8.0
+    B to kill A: 8.0
+Both Musketeer and Musketeer can attack each other so counter is 0.0
+
+Detailed calculation for Musketeer vs Prince:
+Troop A (Musketeer):
+  Number: 1
+  Health: 792
+  Damage: 239
+  Has splash: False
+  Attack speed: 0.5
+Troop B (Prince):
+  Number: 1
+  Health: 1920
+  Damage: 392
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 9
+  Total hits A needs to kill B: 9.0
+  Hits per unit A: 3
+  Total hits B needs to kill A: 3.0
+  Time A to kill B: 18.0
+  Time B to kill A: 3.0
+  A has longer range, time to reach: 2.25
+  A starts attacking first
+  Final adjusted times:
+    A to kill B: 18.0
+    B to kill A: 5.25
+Both Musketeer and Prince can attack each other so counter is -0.1349206349206349
+
+Detailed calculation for Musketeer vs Skeleton:
+Troop A (Musketeer):
+  Number: 1
+  Health: 792
+  Damage: 239
+  Has splash: False
+  Attack speed: 0.5
+Troop B (Skeleton):
+  Number: 10
+  Health: 89
+  Damage: 89
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 1
+  Total hits A needs to kill B: 10.0
+  Hits per unit A: 9
+  Total hits B needs to kill A: 0.9
+  Time A to kill B: 20.0
+  Time B to kill A: 0.9
+  A has longer range, time to reach: 2.25
+  A starts attacking first
+  Final adjusted times:
+    A to kill B: 20.0
+    B to kill A: 3.15
+Both Musketeer and Skeleton can attack each other so counter is -0.26746031746031745
+
+Detailed calculation for Musketeer vs Valkyrie:
+Troop A (Musketeer):
+  Number: 1
+  Health: 792
+  Damage: 239
+  Has splash: False
+  Attack speed: 0.5
+Troop B (Valkyrie):
+  Number: 1
+  Health: 2097
+  Damage: 195
+  Has splash: True
+  Attack speed: 1.0
+  Hits per unit B: 9
+  Total hits A needs to kill B: 9.0
+  Hits B needs to kill A (with splash): 5.0
+  Time A to kill B: 18.0
+  Time B to kill A: 5.0
+  A has longer range, time to reach: 3.75
+  A starts attacking first
+  Final adjusted times:
+    A to kill B: 18.0
+    B to kill A: 8.75
+Both Musketeer and Valkyrie can attack each other so counter is -0.05873015873015873
+
+Detailed calculation for Musketeer vs Wizard:
+Troop A (Musketeer):
+  Number: 1
+  Health: 792
+  Damage: 239
+  Has splash: False
+  Attack speed: 0.5
+Troop B (Wizard):
+  Number: 1
+  Health: 1100
+  Damage: 410
+  Has splash: True
+  Attack speed: 1.0
+  Hits per unit B: 5
+  Total hits A needs to kill B: 5.0
+  Hits B needs to kill A (with splash): 2.0
+  Time A to kill B: 10.0
+  Time B to kill A: 2.0
+  A has longer range, time to reach: 0.3125
+  A starts attacking first
+  Final adjusted times:
+    A to kill B: 10.0
+    B to kill A: 2.3125
+Both Musketeer and Wizard can attack each other so counter is -0.3324324324324325
+
+Detailed calculation for Prince vs Archer:
+Troop A (Prince):
+  Number: 1
+  Health: 1920
+  Damage: 392
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Archer):
+  Number: 2
+  Health: 334
+  Damage: 118
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 1
+  Total hits A needs to kill B: 2.0
+  Hits per unit A: 17
+  Total hits B needs to kill A: 8.5
+  Time A to kill B: 2.0
+  Time B to kill A: 8.5
+  B has longer range, time to reach: 1.875
+  B starts attacking first
+  Final adjusted times:
+    A to kill B: 3.875
+    B to kill A: 8.5
+Both Prince and Archer can attack each other so counter is 0.14041745730550284
+
+Detailed calculation for Prince vs Balloon:
+Troop A (Prince):
+  Number: 1
+  Health: 1920
+  Damage: 392
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Balloon):
+  Number: 1
+  Health: 2226
+  Damage: 424
+  Has splash: False
+  Attack speed: 0.5
+  Hits per unit B: 6
+  Total hits A needs to kill B: 6.0
+  Hits per unit A: 5
+  Total hits B needs to kill A: 5.0
+  Time A to kill B: 6.0
+  Time B to kill A: 10.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 6.0
+    B to kill A: 10.0
+Neither Prince nor Balloon can attack each other
+
+Detailed calculation for Prince vs Barbarian:
+Troop A (Prince):
+  Number: 1
+  Health: 1920
+  Damage: 392
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Barbarian):
+  Number: 3
+  Health: 736
+  Damage: 161
+  Has splash: False
+  Attack speed: 0.5
+  Hits per unit B: 2
+  Total hits A needs to kill B: 6.0
+  Hits per unit A: 12
+  Total hits B needs to kill A: 4.0
+  Time A to kill B: 6.0
+  Time B to kill A: 8.0
+  Equal ranges, no time to reach
+  Both start attacking simultaneously
+  Final adjusted times:
+    A to kill B: 6.0
+    B to kill A: 8.0
+Both Prince and Barbarian can attack each other so counter is 0.04166666666666666
+
+Detailed calculation for Prince vs Dragon:
+Troop A (Prince):
+  Number: 1
+  Health: 1920
+  Damage: 392
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Dragon):
+  Number: 1
+  Health: 1267
+  Damage: 176
+  Has splash: True
+  Attack speed: 1.0
+  Hits per unit B: 4
+  Total hits A needs to kill B: 4.0
+  Hits B needs to kill A (with splash): 11.0
+  Time A to kill B: 4.0
+  Time B to kill A: 11.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 4.0
+    B to kill A: 11.0
+Enemy Dragon can attack Prince but our Prince cannot attack Dragon so counter is -0.09090909090909091
+
+Detailed calculation for Prince vs Giant:
+Troop A (Prince):
+  Number: 1
+  Health: 1920
+  Damage: 392
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Giant):
+  Number: 1
+  Health: 5423
+  Damage: 337
+  Has splash: False
+  Attack speed: 0.3333333333333333
+  Hits per unit B: 14
+  Total hits A needs to kill B: 14.0
+  Hits per unit A: 6
+  Total hits B needs to kill A: 6.0
+  Time A to kill B: 14.0
+  Time B to kill A: 18.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 14.0
+    B to kill A: 18.0
+Our Prince can attack Giant but enemy Giant cannot attack Prince so counter is 0.07142857142857142
+
+Detailed calculation for Prince vs Knight:
+Troop A (Prince):
+  Number: 1
+  Health: 1920
+  Damage: 392
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Knight):
+  Number: 1
+  Health: 1938
+  Damage: 221
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 5
+  Total hits A needs to kill B: 5.0
+  Hits per unit A: 9
+  Total hits B needs to kill A: 9.0
+  Time A to kill B: 5.0
+  Time B to kill A: 9.0
+  Equal ranges, no time to reach
+  Both start attacking simultaneously
+  Final adjusted times:
+    A to kill B: 5.0
+    B to kill A: 9.0
+Both Prince and Knight can attack each other so counter is 0.0888888888888889
+
+Detailed calculation for Prince vs Minion:
+Troop A (Prince):
+  Number: 1
+  Health: 1920
+  Damage: 392
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Minion):
+  Number: 3
+  Health: 252
+  Damage: 129
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 1
+  Total hits A needs to kill B: 3.0
+  Hits per unit A: 15
+  Total hits B needs to kill A: 5.0
+  Time A to kill B: 3.0
+  Time B to kill A: 5.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 3.0
+    B to kill A: 5.0
+Enemy Minion can attack Prince but our Prince cannot attack Minion so counter is -0.2
+
+Detailed calculation for Prince vs Musketeer:
+Troop A (Prince):
+  Number: 1
+  Health: 1920
+  Damage: 392
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Musketeer):
+  Number: 1
+  Health: 792
+  Damage: 239
+  Has splash: False
+  Attack speed: 0.5
+  Hits per unit B: 3
+  Total hits A needs to kill B: 3.0
+  Hits per unit A: 9
+  Total hits B needs to kill A: 9.0
+  Time A to kill B: 3.0
+  Time B to kill A: 18.0
+  B has longer range, time to reach: 2.25
+  B starts attacking first
+  Final adjusted times:
+    A to kill B: 5.25
+    B to kill A: 18.0
+Both Prince and Musketeer can attack each other so counter is 0.1349206349206349
+
+Detailed calculation for Prince vs Prince:
+Troop A (Prince):
+  Number: 1
+  Health: 1920
+  Damage: 392
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Prince):
+  Number: 1
+  Health: 1920
+  Damage: 392
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 5
+  Total hits A needs to kill B: 5.0
+  Hits per unit A: 5
+  Total hits B needs to kill A: 5.0
+  Time A to kill B: 5.0
+  Time B to kill A: 5.0
+  Equal ranges, no time to reach
+  Both start attacking simultaneously
+  Final adjusted times:
+    A to kill B: 5.0
+    B to kill A: 5.0
+Both Prince and Prince can attack each other so counter is 0.0
+
+Detailed calculation for Prince vs Skeleton:
+Troop A (Prince):
+  Number: 1
+  Health: 1920
+  Damage: 392
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Skeleton):
+  Number: 10
+  Health: 89
+  Damage: 89
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 1
+  Total hits A needs to kill B: 10.0
+  Hits per unit A: 22
+  Total hits B needs to kill A: 2.2
+  Time A to kill B: 10.0
+  Time B to kill A: 2.2
+  Equal ranges, no time to reach
+  Both start attacking simultaneously
+  Final adjusted times:
+    A to kill B: 10.0
+    B to kill A: 2.2
+Both Prince and Skeleton can attack each other so counter is -0.3545454545454545
+
+Detailed calculation for Prince vs Valkyrie:
+Troop A (Prince):
+  Number: 1
+  Health: 1920
+  Damage: 392
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Valkyrie):
+  Number: 1
+  Health: 2097
+  Damage: 195
+  Has splash: True
+  Attack speed: 1.0
+  Hits per unit B: 6
+  Total hits A needs to kill B: 6.0
+  Hits B needs to kill A (with splash): 10.0
+  Time A to kill B: 6.0
+  Time B to kill A: 10.0
+  Equal ranges, no time to reach
+  Both start attacking simultaneously
+  Final adjusted times:
+    A to kill B: 6.0
+    B to kill A: 10.0
+Both Prince and Valkyrie can attack each other so counter is 0.06666666666666665
+
+Detailed calculation for Prince vs Wizard:
+Troop A (Prince):
+  Number: 1
+  Health: 1920
+  Damage: 392
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Wizard):
+  Number: 1
+  Health: 1100
+  Damage: 410
+  Has splash: True
+  Attack speed: 1.0
+  Hits per unit B: 3
+  Total hits A needs to kill B: 3.0
+  Hits B needs to kill A (with splash): 5.0
+  Time A to kill B: 3.0
+  Time B to kill A: 5.0
+  B has longer range, time to reach: 2.0625
+  B starts attacking first
+  Final adjusted times:
+    A to kill B: 5.0625
+    B to kill A: 5.0
+Both Prince and Wizard can attack each other so counter is -0.002469135802469158
+
+Detailed calculation for Skeleton vs Archer:
+Troop A (Skeleton):
+  Number: 10
+  Health: 89
+  Damage: 89
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Archer):
+  Number: 2
+  Health: 334
+  Damage: 118
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 4
+  Total hits A needs to kill B: 0.8
+  Hits per unit A: 1
+  Total hits B needs to kill A: 5.0
+  Time A to kill B: 0.8
+  Time B to kill A: 5.0
+  B has longer range, time to reach: 1.875
+  B starts attacking first
+  Final adjusted times:
+    A to kill B: 2.675
+    B to kill A: 5.0
+Both Skeleton and Archer can attack each other so counter is 0.1738317757009346
+
+Detailed calculation for Skeleton vs Balloon:
+Troop A (Skeleton):
+  Number: 10
+  Health: 89
+  Damage: 89
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Balloon):
+  Number: 1
+  Health: 2226
+  Damage: 424
+  Has splash: False
+  Attack speed: 0.5
+  Hits per unit B: 26
+  Total hits A needs to kill B: 2.6
+  Hits per unit A: 1
+  Total hits B needs to kill A: 10.0
+  Time A to kill B: 2.6
+  Time B to kill A: 20.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 2.6
+    B to kill A: 20.0
+Neither Skeleton nor Balloon can attack each other
+
+Detailed calculation for Skeleton vs Barbarian:
+Troop A (Skeleton):
+  Number: 10
+  Health: 89
+  Damage: 89
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Barbarian):
+  Number: 3
+  Health: 736
+  Damage: 161
+  Has splash: False
+  Attack speed: 0.5
+  Hits per unit B: 9
+  Total hits A needs to kill B: 2.7
+  Hits per unit A: 1
+  Total hits B needs to kill A: 3.3333333333333335
+  Time A to kill B: 2.7
+  Time B to kill A: 6.666666666666667
+  Equal ranges, no time to reach
+  Both start attacking simultaneously
+  Final adjusted times:
+    A to kill B: 2.7
+    B to kill A: 6.666666666666667
+Both Skeleton and Barbarian can attack each other so counter is 0.22037037037037036
+
+Detailed calculation for Skeleton vs Dragon:
+Troop A (Skeleton):
+  Number: 10
+  Health: 89
+  Damage: 89
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Dragon):
+  Number: 1
+  Health: 1267
+  Damage: 176
+  Has splash: True
+  Attack speed: 1.0
+  Hits per unit B: 15
+  Total hits A needs to kill B: 1.5
+  Hits B needs to kill A (with splash): 1.0
+  Time A to kill B: 1.5
+  Time B to kill A: 1.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 1.5
+    B to kill A: 1.0
+Enemy Dragon can attack Skeleton but our Skeleton cannot attack Dragon so counter is -1.0
+
+Detailed calculation for Skeleton vs Giant:
+Troop A (Skeleton):
+  Number: 10
+  Health: 89
+  Damage: 89
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Giant):
+  Number: 1
+  Health: 5423
+  Damage: 337
+  Has splash: False
+  Attack speed: 0.3333333333333333
+  Hits per unit B: 61
+  Total hits A needs to kill B: 6.1
+  Hits per unit A: 1
+  Total hits B needs to kill A: 10.0
+  Time A to kill B: 6.1
+  Time B to kill A: 30.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 6.1
+    B to kill A: 30.0
+Our Skeleton can attack Giant but enemy Giant cannot attack Skeleton so counter is 0.1639344262295082
+
+Detailed calculation for Skeleton vs Knight:
+Troop A (Skeleton):
+  Number: 10
+  Health: 89
+  Damage: 89
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Knight):
+  Number: 1
+  Health: 1938
+  Damage: 221
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 22
+  Total hits A needs to kill B: 2.2
+  Hits per unit A: 1
+  Total hits B needs to kill A: 10.0
+  Time A to kill B: 2.2
+  Time B to kill A: 10.0
+  Equal ranges, no time to reach
+  Both start attacking simultaneously
+  Final adjusted times:
+    A to kill B: 2.2
+    B to kill A: 10.0
+Both Skeleton and Knight can attack each other so counter is 0.3545454545454545
+
+Detailed calculation for Skeleton vs Minion:
+Troop A (Skeleton):
+  Number: 10
+  Health: 89
+  Damage: 89
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Minion):
+  Number: 3
+  Health: 252
+  Damage: 129
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 3
+  Total hits A needs to kill B: 0.9
+  Hits per unit A: 1
+  Total hits B needs to kill A: 3.3333333333333335
+  Time A to kill B: 0.9
+  Time B to kill A: 3.3333333333333335
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 0.9
+    B to kill A: 3.3333333333333335
+Enemy Minion can attack Skeleton but our Skeleton cannot attack Minion so counter is -0.3
+
+Detailed calculation for Skeleton vs Musketeer:
+Troop A (Skeleton):
+  Number: 10
+  Health: 89
+  Damage: 89
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Musketeer):
+  Number: 1
+  Health: 792
+  Damage: 239
+  Has splash: False
+  Attack speed: 0.5
+  Hits per unit B: 9
+  Total hits A needs to kill B: 0.9
+  Hits per unit A: 1
+  Total hits B needs to kill A: 10.0
+  Time A to kill B: 0.9
+  Time B to kill A: 20.0
+  B has longer range, time to reach: 2.25
+  B starts attacking first
+  Final adjusted times:
+    A to kill B: 3.15
+    B to kill A: 20.0
+Both Skeleton and Musketeer can attack each other so counter is 0.26746031746031745
+
+Detailed calculation for Skeleton vs Prince:
+Troop A (Skeleton):
+  Number: 10
+  Health: 89
+  Damage: 89
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Prince):
+  Number: 1
+  Health: 1920
+  Damage: 392
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 22
+  Total hits A needs to kill B: 2.2
+  Hits per unit A: 1
+  Total hits B needs to kill A: 10.0
+  Time A to kill B: 2.2
+  Time B to kill A: 10.0
+  Equal ranges, no time to reach
+  Both start attacking simultaneously
+  Final adjusted times:
+    A to kill B: 2.2
+    B to kill A: 10.0
+Both Skeleton and Prince can attack each other so counter is 0.3545454545454545
+
+Detailed calculation for Skeleton vs Skeleton:
+Troop A (Skeleton):
+  Number: 10
+  Health: 89
+  Damage: 89
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Skeleton):
+  Number: 10
+  Health: 89
+  Damage: 89
+  Has splash: False
+  Attack speed: 1.0
+  Hits per unit B: 1
+  Total hits A needs to kill B: 1.0
+  Hits per unit A: 1
+  Total hits B needs to kill A: 1.0
+  Time A to kill B: 1.0
+  Time B to kill A: 1.0
+  Equal ranges, no time to reach
+  Both start attacking simultaneously
+  Final adjusted times:
+    A to kill B: 1.0
+    B to kill A: 1.0
+Both Skeleton and Skeleton can attack each other so counter is 0.0
+
+Detailed calculation for Skeleton vs Valkyrie:
+Troop A (Skeleton):
+  Number: 10
+  Health: 89
+  Damage: 89
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Valkyrie):
+  Number: 1
+  Health: 2097
+  Damage: 195
+  Has splash: True
+  Attack speed: 1.0
+  Hits per unit B: 24
+  Total hits A needs to kill B: 2.4
+  Hits B needs to kill A (with splash): 1.0
+  Time A to kill B: 2.4
+  Time B to kill A: 1.0
+  Equal ranges, no time to reach
+  Both start attacking simultaneously
+  Final adjusted times:
+    A to kill B: 2.4
+    B to kill A: 1.0
+Both Skeleton and Valkyrie can attack each other so counter is -0.5833333333333333
+
+Detailed calculation for Skeleton vs Wizard:
+Troop A (Skeleton):
+  Number: 10
+  Health: 89
+  Damage: 89
+  Has splash: False
+  Attack speed: 1.0
+Troop B (Wizard):
+  Number: 1
+  Health: 1100
+  Damage: 410
+  Has splash: True
+  Attack speed: 1.0
+  Hits per unit B: 13
+  Total hits A needs to kill B: 1.3
+  Hits B needs to kill A (with splash): 1.0
+  Time A to kill B: 1.3
+  Time B to kill A: 1.0
+  B has longer range, time to reach: 2.0625
+  B starts attacking first
+  Final adjusted times:
+    A to kill B: 3.3625
+    B to kill A: 1.0
+Both Skeleton and Wizard can attack each other so counter is -0.7026022304832713
+
+Detailed calculation for Valkyrie vs Archer:
+Troop A (Valkyrie):
+  Number: 1
+  Health: 2097
+  Damage: 195
+  Has splash: True
+  Attack speed: 1.0
+Troop B (Archer):
+  Number: 2
+  Health: 334
+  Damage: 118
+  Has splash: False
+  Attack speed: 1.0
+  Hits A needs to kill B (with splash): 2.0
+  Hits per unit A: 18
+  Total hits B needs to kill A: 9.0
+  Time A to kill B: 2.0
+  Time B to kill A: 9.0
+  B has longer range, time to reach: 3.125
+  B starts attacking first
+  Final adjusted times:
+    A to kill B: 5.125
+    B to kill A: 9.0
+Both Valkyrie and Archer can attack each other so counter is 0.0840108401084011
+
+Detailed calculation for Valkyrie vs Balloon:
+Troop A (Valkyrie):
+  Number: 1
+  Health: 2097
+  Damage: 195
+  Has splash: True
+  Attack speed: 1.0
+Troop B (Balloon):
+  Number: 1
+  Health: 2226
+  Damage: 424
+  Has splash: False
+  Attack speed: 0.5
+  Hits A needs to kill B (with splash): 12.0
+  Hits per unit A: 5
+  Total hits B needs to kill A: 5.0
+  Time A to kill B: 12.0
+  Time B to kill A: 10.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 12.0
+    B to kill A: 10.0
+Neither Valkyrie nor Balloon can attack each other
+
+Detailed calculation for Valkyrie vs Barbarian:
+Troop A (Valkyrie):
+  Number: 1
+  Health: 2097
+  Damage: 195
+  Has splash: True
+  Attack speed: 1.0
+Troop B (Barbarian):
+  Number: 3
+  Health: 736
+  Damage: 161
+  Has splash: False
+  Attack speed: 0.5
+  Hits A needs to kill B (with splash): 4.0
+  Hits per unit A: 14
+  Total hits B needs to kill A: 4.666666666666667
+  Time A to kill B: 4.0
+  Time B to kill A: 9.333333333333334
+  Equal ranges, no time to reach
+  Both start attacking simultaneously
+  Final adjusted times:
+    A to kill B: 4.0
+    B to kill A: 9.333333333333334
+Both Valkyrie and Barbarian can attack each other so counter is 0.14285714285714285
+
+Detailed calculation for Valkyrie vs Dragon:
+Troop A (Valkyrie):
+  Number: 1
+  Health: 2097
+  Damage: 195
+  Has splash: True
+  Attack speed: 1.0
+Troop B (Dragon):
+  Number: 1
+  Health: 1267
+  Damage: 176
+  Has splash: True
+  Attack speed: 1.0
+  Hits A needs to kill B (with splash): 7.0
+  Hits B needs to kill A (with splash): 12.0
+  Time A to kill B: 7.0
+  Time B to kill A: 12.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 7.0
+    B to kill A: 12.0
+Enemy Dragon can attack Valkyrie but our Valkyrie cannot attack Dragon so counter is -0.08333333333333333
+
+Detailed calculation for Valkyrie vs Giant:
+Troop A (Valkyrie):
+  Number: 1
+  Health: 2097
+  Damage: 195
+  Has splash: True
+  Attack speed: 1.0
+Troop B (Giant):
+  Number: 1
+  Health: 5423
+  Damage: 337
+  Has splash: False
+  Attack speed: 0.3333333333333333
+  Hits A needs to kill B (with splash): 28.0
+  Hits per unit A: 7
+  Total hits B needs to kill A: 7.0
+  Time A to kill B: 28.0
+  Time B to kill A: 21.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 28.0
+    B to kill A: 21.0
+Our Valkyrie can attack Giant but enemy Giant cannot attack Valkyrie so counter is 0.03571428571428571
+
+Detailed calculation for Valkyrie vs Knight:
+Troop A (Valkyrie):
+  Number: 1
+  Health: 2097
+  Damage: 195
+  Has splash: True
+  Attack speed: 1.0
+Troop B (Knight):
+  Number: 1
+  Health: 1938
+  Damage: 221
+  Has splash: False
+  Attack speed: 1.0
+  Hits A needs to kill B (with splash): 10.0
+  Hits per unit A: 10
+  Total hits B needs to kill A: 10.0
+  Time A to kill B: 10.0
+  Time B to kill A: 10.0
+  Equal ranges, no time to reach
+  Both start attacking simultaneously
+  Final adjusted times:
+    A to kill B: 10.0
+    B to kill A: 10.0
+Both Valkyrie and Knight can attack each other so counter is 0.0
+
+Detailed calculation for Valkyrie vs Minion:
+Troop A (Valkyrie):
+  Number: 1
+  Health: 2097
+  Damage: 195
+  Has splash: True
+  Attack speed: 1.0
+Troop B (Minion):
+  Number: 3
+  Health: 252
+  Damage: 129
+  Has splash: False
+  Attack speed: 1.0
+  Hits A needs to kill B (with splash): 2.0
+  Hits per unit A: 17
+  Total hits B needs to kill A: 5.666666666666667
+  Time A to kill B: 2.0
+  Time B to kill A: 5.666666666666667
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 2.0
+    B to kill A: 5.666666666666667
+Enemy Minion can attack Valkyrie but our Valkyrie cannot attack Minion so counter is -0.1764705882352941
+
+Detailed calculation for Valkyrie vs Musketeer:
+Troop A (Valkyrie):
+  Number: 1
+  Health: 2097
+  Damage: 195
+  Has splash: True
+  Attack speed: 1.0
+Troop B (Musketeer):
+  Number: 1
+  Health: 792
+  Damage: 239
+  Has splash: False
+  Attack speed: 0.5
+  Hits A needs to kill B (with splash): 5.0
+  Hits per unit A: 9
+  Total hits B needs to kill A: 9.0
+  Time A to kill B: 5.0
+  Time B to kill A: 18.0
+  B has longer range, time to reach: 3.75
+  B starts attacking first
+  Final adjusted times:
+    A to kill B: 8.75
+    B to kill A: 18.0
+Both Valkyrie and Musketeer can attack each other so counter is 0.05873015873015873
+
+Detailed calculation for Valkyrie vs Prince:
+Troop A (Valkyrie):
+  Number: 1
+  Health: 2097
+  Damage: 195
+  Has splash: True
+  Attack speed: 1.0
+Troop B (Prince):
+  Number: 1
+  Health: 1920
+  Damage: 392
+  Has splash: False
+  Attack speed: 1.0
+  Hits A needs to kill B (with splash): 10.0
+  Hits per unit A: 6
+  Total hits B needs to kill A: 6.0
+  Time A to kill B: 10.0
+  Time B to kill A: 6.0
+  Equal ranges, no time to reach
+  Both start attacking simultaneously
+  Final adjusted times:
+    A to kill B: 10.0
+    B to kill A: 6.0
+Both Valkyrie and Prince can attack each other so counter is -0.06666666666666665
+
+Detailed calculation for Valkyrie vs Skeleton:
+Troop A (Valkyrie):
+  Number: 1
+  Health: 2097
+  Damage: 195
+  Has splash: True
+  Attack speed: 1.0
+Troop B (Skeleton):
+  Number: 10
+  Health: 89
+  Damage: 89
+  Has splash: False
+  Attack speed: 1.0
+  Hits A needs to kill B (with splash): 1.0
+  Hits per unit A: 24
+  Total hits B needs to kill A: 2.4
+  Time A to kill B: 1.0
+  Time B to kill A: 2.4
+  Equal ranges, no time to reach
+  Both start attacking simultaneously
+  Final adjusted times:
+    A to kill B: 1.0
+    B to kill A: 2.4
+Both Valkyrie and Skeleton can attack each other so counter is 0.5833333333333333
+
+Detailed calculation for Valkyrie vs Valkyrie:
+Troop A (Valkyrie):
+  Number: 1
+  Health: 2097
+  Damage: 195
+  Has splash: True
+  Attack speed: 1.0
+Troop B (Valkyrie):
+  Number: 1
+  Health: 2097
+  Damage: 195
+  Has splash: True
+  Attack speed: 1.0
+  Hits A needs to kill B (with splash): 11.0
+  Hits B needs to kill A (with splash): 11.0
+  Time A to kill B: 11.0
+  Time B to kill A: 11.0
+  Equal ranges, no time to reach
+  Both start attacking simultaneously
+  Final adjusted times:
+    A to kill B: 11.0
+    B to kill A: 11.0
+Both Valkyrie and Valkyrie can attack each other so counter is 0.0
+
+Detailed calculation for Valkyrie vs Wizard:
+Troop A (Valkyrie):
+  Number: 1
+  Health: 2097
+  Damage: 195
+  Has splash: True
+  Attack speed: 1.0
+Troop B (Wizard):
+  Number: 1
+  Health: 1100
+  Damage: 410
+  Has splash: True
+  Attack speed: 1.0
+  Hits A needs to kill B (with splash): 6.0
+  Hits B needs to kill A (with splash): 6.0
+  Time A to kill B: 6.0
+  Time B to kill A: 6.0
+  B has longer range, time to reach: 3.4375
+  B starts attacking first
+  Final adjusted times:
+    A to kill B: 9.4375
+    B to kill A: 6.0
+Both Valkyrie and Wizard can attack each other so counter is -0.060706401766004406
+
+Detailed calculation for Wizard vs Archer:
+Troop A (Wizard):
+  Number: 1
+  Health: 1100
+  Damage: 410
+  Has splash: True
+  Attack speed: 1.0
+Troop B (Archer):
+  Number: 2
+  Health: 334
+  Damage: 118
+  Has splash: False
+  Attack speed: 1.0
+  Hits A needs to kill B (with splash): 1.0
+  Hits per unit A: 10
+  Total hits B needs to kill A: 5.0
+  Time A to kill B: 1.0
+  Time B to kill A: 5.0
+  A has longer range, time to reach: 0.3125
+  A starts attacking first
+  Final adjusted times:
+    A to kill B: 1.0
+    B to kill A: 5.3125
+Both Wizard and Archer can attack each other so counter is 0.8117647058823529
+
+Detailed calculation for Wizard vs Balloon:
+Troop A (Wizard):
+  Number: 1
+  Health: 1100
+  Damage: 410
+  Has splash: True
+  Attack speed: 1.0
+Troop B (Balloon):
+  Number: 1
+  Health: 2226
+  Damage: 424
+  Has splash: False
+  Attack speed: 0.5
+  Hits A needs to kill B (with splash): 6.0
+  Hits per unit A: 3
+  Total hits B needs to kill A: 3.0
+  Time A to kill B: 6.0
+  Time B to kill A: 6.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 6.0
+    B to kill A: 6.0
+Our Wizard can attack Balloon but enemy Balloon cannot attack Wizard so counter is 0.16666666666666666
+
+Detailed calculation for Wizard vs Barbarian:
+Troop A (Wizard):
+  Number: 1
+  Health: 1100
+  Damage: 410
+  Has splash: True
+  Attack speed: 1.0
+Troop B (Barbarian):
+  Number: 3
+  Health: 736
+  Damage: 161
+  Has splash: False
+  Attack speed: 0.5
+  Hits A needs to kill B (with splash): 2.0
+  Hits per unit A: 7
+  Total hits B needs to kill A: 2.3333333333333335
+  Time A to kill B: 2.0
+  Time B to kill A: 4.666666666666667
+  A has longer range, time to reach: 3.4375
+  A starts attacking first
+  Final adjusted times:
+    A to kill B: 2.0
+    B to kill A: 8.104166666666668
+Both Wizard and Barbarian can attack each other so counter is 0.37660668380462725
+
+Detailed calculation for Wizard vs Dragon:
+Troop A (Wizard):
+  Number: 1
+  Health: 1100
+  Damage: 410
+  Has splash: True
+  Attack speed: 1.0
+Troop B (Dragon):
+  Number: 1
+  Health: 1267
+  Damage: 176
+  Has splash: True
+  Attack speed: 1.0
+  Hits A needs to kill B (with splash): 4.0
+  Hits B needs to kill A (with splash): 7.0
+  Time A to kill B: 4.0
+  Time B to kill A: 7.0
+  A has longer range, time to reach: 0.75
+  A starts attacking first
+  Final adjusted times:
+    A to kill B: 4.0
+    B to kill A: 7.75
+Both Wizard and Dragon can attack each other so counter is 0.12096774193548387
+
+Detailed calculation for Wizard vs Giant:
+Troop A (Wizard):
+  Number: 1
+  Health: 1100
+  Damage: 410
+  Has splash: True
+  Attack speed: 1.0
+Troop B (Giant):
+  Number: 1
+  Health: 5423
+  Damage: 337
+  Has splash: False
+  Attack speed: 0.3333333333333333
+  Hits A needs to kill B (with splash): 14.0
+  Hits per unit A: 4
+  Total hits B needs to kill A: 4.0
+  Time A to kill B: 14.0
+  Time B to kill A: 12.0
+  No time to reach adjustment - one troop cannot attack the other
+  Final adjusted times:
+    A to kill B: 14.0
+    B to kill A: 12.0
+Our Wizard can attack Giant but enemy Giant cannot attack Wizard so counter is 0.07142857142857142
+
+Detailed calculation for Wizard vs Knight:
+Troop A (Wizard):
+  Number: 1
+  Health: 1100
+  Damage: 410
+  Has splash: True
+  Attack speed: 1.0
+Troop B (Knight):
+  Number: 1
+  Health: 1938
+  Damage: 221
+  Has splash: False
+  Attack speed: 1.0
+  Hits A needs to kill B (with splash): 5.0
+  Hits per unit A: 5
+  Total hits B needs to kill A: 5.0
+  Time A to kill B: 5.0
+  Time B to kill A: 5.0
+  A has longer range, time to reach: 3.4375
+  A starts attacking first
+  Final adjusted times:
+    A to kill B: 5.0
+    B to kill A: 8.4375
+Both Wizard and Knight can attack each other so counter is 0.08148148148148149
+
+Detailed calculation for Wizard vs Minion:
+Troop A (Wizard):
+  Number: 1
+  Health: 1100
+  Damage: 410
+  Has splash: True
+  Attack speed: 1.0
+Troop B (Minion):
+  Number: 3
+  Health: 252
+  Damage: 129
+  Has splash: False
+  Attack speed: 1.0
+  Hits A needs to kill B (with splash): 1.0
+  Hits per unit A: 9
+  Total hits B needs to kill A: 3.0
+  Time A to kill B: 1.0
+  Time B to kill A: 3.0
+  A has longer range, time to reach: 1.3125
+  A starts attacking first
+  Final adjusted times:
+    A to kill B: 1.0
+    B to kill A: 4.3125
+Both Wizard and Minion can attack each other so counter is 0.7681159420289855
+
+Detailed calculation for Wizard vs Musketeer:
+Troop A (Wizard):
+  Number: 1
+  Health: 1100
+  Damage: 410
+  Has splash: True
+  Attack speed: 1.0
+Troop B (Musketeer):
+  Number: 1
+  Health: 792
+  Damage: 239
+  Has splash: False
+  Attack speed: 0.5
+  Hits A needs to kill B (with splash): 2.0
+  Hits per unit A: 5
+  Total hits B needs to kill A: 5.0
+  Time A to kill B: 2.0
+  Time B to kill A: 10.0
+  B has longer range, time to reach: 0.3125
+  B starts attacking first
+  Final adjusted times:
+    A to kill B: 2.3125
+    B to kill A: 10.0
+Both Wizard and Musketeer can attack each other so counter is 0.3324324324324325
+
+Detailed calculation for Wizard vs Prince:
+Troop A (Wizard):
+  Number: 1
+  Health: 1100
+  Damage: 410
+  Has splash: True
+  Attack speed: 1.0
+Troop B (Prince):
+  Number: 1
+  Health: 1920
+  Damage: 392
+  Has splash: False
+  Attack speed: 1.0
+  Hits A needs to kill B (with splash): 5.0
+  Hits per unit A: 3
+  Total hits B needs to kill A: 3.0
+  Time A to kill B: 5.0
+  Time B to kill A: 3.0
+  A has longer range, time to reach: 2.0625
+  A starts attacking first
+  Final adjusted times:
+    A to kill B: 5.0
+    B to kill A: 5.0625
+Both Wizard and Prince can attack each other so counter is 0.002469135802469158
+
+Detailed calculation for Wizard vs Skeleton:
+Troop A (Wizard):
+  Number: 1
+  Health: 1100
+  Damage: 410
+  Has splash: True
+  Attack speed: 1.0
+Troop B (Skeleton):
+  Number: 10
+  Health: 89
+  Damage: 89
+  Has splash: False
+  Attack speed: 1.0
+  Hits A needs to kill B (with splash): 1.0
+  Hits per unit A: 13
+  Total hits B needs to kill A: 1.3
+  Time A to kill B: 1.0
+  Time B to kill A: 1.3
+  A has longer range, time to reach: 2.0625
+  A starts attacking first
+  Final adjusted times:
+    A to kill B: 1.0
+    B to kill A: 3.3625
+Both Wizard and Skeleton can attack each other so counter is 0.7026022304832713
+
+Detailed calculation for Wizard vs Valkyrie:
+Troop A (Wizard):
+  Number: 1
+  Health: 1100
+  Damage: 410
+  Has splash: True
+  Attack speed: 1.0
+Troop B (Valkyrie):
+  Number: 1
+  Health: 2097
+  Damage: 195
+  Has splash: True
+  Attack speed: 1.0
+  Hits A needs to kill B (with splash): 6.0
+  Hits B needs to kill A (with splash): 6.0
+  Time A to kill B: 6.0
+  Time B to kill A: 6.0
+  A has longer range, time to reach: 3.4375
+  A starts attacking first
+  Final adjusted times:
+    A to kill B: 6.0
+    B to kill A: 9.4375
+Both Wizard and Valkyrie can attack each other so counter is 0.060706401766004406
+
+Detailed calculation for Wizard vs Wizard:
+Troop A (Wizard):
+  Number: 1
+  Health: 1100
+  Damage: 410
+  Has splash: True
+  Attack speed: 1.0
+Troop B (Wizard):
+  Number: 1
+  Health: 1100
+  Damage: 410
+  Has splash: True
+  Attack speed: 1.0
+  Hits A needs to kill B (with splash): 3.0
+  Hits B needs to kill A (with splash): 3.0
+  Time A to kill B: 3.0
+  Time B to kill A: 3.0
+  Equal ranges, no time to reach
+  Both start attacking simultaneously
+  Final adjusted times:
+    A to kill B: 3.0
+    B to kill A: 3.0
+Both Wizard and Wizard can attack each other so counter is 0.0
+
+Final Counter Matrix:
+[[ 0.          0.10526316 -0.04511278 -0.20842572  0.04347826 -0.02270382
+  -0.09777778  0.11742424 -0.14041746 -0.17383178 -0.08401084 -0.81176471]
+ [-0.10526316  0.          0.         -0.07692308  0.          0.
+  -0.16666667 -0.05        0.          0.          0.         -0.16666667]
+ [ 0.04511278  0.          0.         -0.2         0.04411765  0.03205128
+  -0.16666667  0.0995098  -0.04166667 -0.22037037 -0.14285714 -0.37660668]
+ [ 0.20842572  0.07692308  0.2         0.          0.03225806  0.08333333
+   0.24331551  0.08508772  0.09090909  1.          0.08333333 -0.12096774]
+ [-0.04347826  0.         -0.04411765 -0.03225806  0.         -0.04
+  -0.06976744 -0.02173913 -0.07142857 -0.16393443 -0.03571429 -0.07142857]
+ [ 0.02270382  0.         -0.03205128 -0.08333333  0.04        0.
+  -0.1875      0.0734767  -0.08888889 -0.35454545  0.         -0.08148148]
+ [ 0.09777778  0.16666667  0.16666667 -0.24331551  0.06976744  0.1875
+   0.          0.17753623  0.2         0.3         0.17647059 -0.76811594]
+ [-0.11742424  0.05       -0.0995098  -0.08508772  0.02173913 -0.0734767
+  -0.17753623  0.         -0.13492063 -0.26746032 -0.05873016 -0.33243243]
+ [ 0.14041746  0.          0.04166667 -0.09090909  0.07142857  0.08888889
+  -0.2         0.13492063  0.         -0.35454545  0.06666667 -0.00246914]
+ [ 0.17383178  0.          0.22037037 -1.          0.16393443  0.35454545
+  -0.3         0.26746032  0.35454545  0.         -0.58333333 -0.70260223]
+ [ 0.08401084  0.          0.14285714 -0.08333333  0.03571429  0.
+  -0.17647059  0.05873016 -0.06666667  0.58333333  0.         -0.0607064 ]
+ [ 0.81176471  0.16666667  0.37660668  0.12096774  0.07142857  0.08148148
+   0.76811594  0.33243243  0.00246914  0.70260223  0.0607064   0.        ]]
+
+Strategic Analysis:
+==================================================
+
+Archer:
+  Best counter: Wizard (0.812)
+  Worst counter: Musketeer (-0.117)
+
+Balloon:
+  Best counter: Minion (0.167)
+  Worst counter: Balloon (0.000)
+
+Barbarian:
+  Best counter: Wizard (0.377)
+  Worst counter: Musketeer (-0.100)
+
+Dragon:
+  Best counter: Wizard (0.121)
+  Worst counter: Skeleton (-1.000)
+
+Giant:
+  Best counter: Skeleton (0.164)
+  Worst counter: Balloon (0.000)
+
+Knight:
+  Best counter: Skeleton (0.355)
+  Worst counter: Musketeer (-0.073)
+
+Minion:
+  Best counter: Wizard (0.768)
+  Worst counter: Skeleton (-0.300)
+
+Musketeer:
+  Best counter: Wizard (0.332)
+  Worst counter: Balloon (-0.050)
+
+Prince:
+  Best counter: Skeleton (0.355)
+  Worst counter: Archer (-0.140)
+
+Skeleton:
+  Best counter: Dragon (1.000)
+  Worst counter: Knight (-0.355)
+
+Valkyrie:
+  Best counter: Minion (0.176)
+  Worst counter: Skeleton (-0.583)
+
+Wizard:
+  Best counter: Wizard (0.000)
+  Worst counter: Archer (-0.812)
