@@ -114,6 +114,7 @@ The simulator executes multiple concurrent match instances, aggregating results 
 
 - **WnCC IIT Bombay** for the original game engine implementation
 - This project was developed for the [CodeWars V5: Code Royale](https://tulip-cone-606.notion.site/CodeWars-V5-Code-Royale-1ac881a58b9a807196a5e351b6ea8a79) competition.
+- For multiple Contributions= by my fellow teammate Adit Prabhu
 
 ---
 *Developed by the HackStreetBoys Team* 
