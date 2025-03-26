@@ -1,6 +1,6 @@
 # 🎮 Clash Royale Strategy Competition - HackStreetBoys
 
-A **Python-based game simulator** for strategic match analysis between competing team algorithms. This project extends the original game engine provided by **WnCC IIT Bombay** for CodeWars V5, implementing headless operation and parallel simulation architecture for computationally efficient strategy optimization.
+A **Python-based game simulator** for strategic match analysis between competing team algorithms. This project extends the original game engine provided by **WnCC IIT Bombay** for CodeWars V5, implementing headless operation and parallel simulation architecture for computationally efficient strategy optimization. The optimal strategy as proposed can be found under /Teams
 
 ## 📁 Project Structure
 
